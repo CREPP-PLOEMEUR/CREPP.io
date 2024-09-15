@@ -8,12 +8,12 @@
 
 - 1.0 : 
 
-    Fonctionnalités :
-    - Connecteur pour ESP12 NodeMCU
+    - Fonctionnalités :
+        - Connecteur pour ESP12 NodeMCU
 
 - 1.1 :
 
-    -Corrections de la sérigraphie :
+    - Corrections de la sérigraphie :
 
         - sur le connecteur J6 (retirer la sérigraphie des jumpers)   [C1]
         - sur le connecteur J14 (en lien avec le changement [C2] )
@@ -27,8 +27,8 @@
         - Sur le branchement de l'OLED (Inverser les 4 broches avec une symétrie centrale)  [C6]
         - sur le branchement du capteur HC-SR04, inverser la broche ECHO et TRIG [C7]
 
-    -Corrections du routage :
-    
+    - Corrections du routage :
+
         - Mise à jour du routage de l'OLED (en lien avec le changement [C5])  [C8]
         - Mise à jour du routage de la broche TRIG et ECHO du capteur de distance HC-SR04 (en lien avec le changement [C7]) [C9]
         - Aligner les trous de fixation M3  [C10]
