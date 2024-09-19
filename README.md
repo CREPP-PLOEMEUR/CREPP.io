@@ -5,6 +5,8 @@ Ce projet consiste en la conception et la réalisation d'une carte d'extension p
 
 Cette carte est le support de l'atelier Electronique Débutant pour le Club de Robotique et d'Electronique Programmable de Ploemeur (CREPP).
 
+Les isntructions de montage sont disponibles dans le fichier **INSTRUCTIONS.md**
+
 ## Fonctionnalités Principales
 
 - **Connectivité étendue :** La carte propose plusieurs connecteurs (PinHeaders, Sockets, Bornes à vis) pour l'intégration facile de différents modules et capteurs.
