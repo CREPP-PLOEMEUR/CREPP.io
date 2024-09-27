@@ -1,32 +1,31 @@
-#ifndef NETWORK_H
-#define NETWORK_H
+#ifndef ANALOG_H
+#define ANALOG_H
 
-#include <ESP8266WiFi.h>
-#include <ESP8266WebServer.h>
+#include <Arduino.h"
 
-class Network 
+class Analog 
 {
 
-    enum NetMode {
-        WIFI_OFF,
-        WIFI_ON
-    };
+typedef enum
+{
+        Channel_1,
+        Channel_2,
+        Channel_3,
+        Channel_4
+
+} AnalogChannel;
+   
 
 public:
-    Network();  
+    Analog();  
 
+    void begin(uint8_t adress);
+    void analogRead(AnalogChannel channel); 
     
-    void connectToRouter(const char* ssid, const char* password); // Connexion à un routeur Wi-Fi
-    void startAccessPoint(const char* ssid, const char* password); // Démarrage en mode Point d'accès
-
-    // Méthode pour récupérer l'adresse IP
-    IPAddress getIPAddress();
-
-    // Méthode pour configurer un serveur web et enregistrer une fonction de gestion HTML
-    void startWebServer(void (*htmlCallback)());
 
 private:
-    void printWiFiStatus(); // Méthode privée pour afficher l'état du Wi-Fi
+    
+    
 
     ESP8266WebServer server;  // Serveur web intégré
     void (*htmlContentGenerator)();  // Pointeur de fonction pour générer le contenu HTML
