@@ -1,11 +1,15 @@
 # CREPP.io
-![img](.img/img.png)
+
+
+![img](Images/Top_View.jpg)
 
 Ce projet consiste en la conception et la réalisation d'une carte d'extension pour le module ESP12 NodeMCU. La carte permet d'étendre les capacités du NodeMCU en ajoutant divers connecteurs, composants passifs et actifs, facilitant ainsi le développement de projets IoT (Internet des Objets). Elle est conçue pour offrir une interface facile d'utilisation pour la connexion de capteurs, d'afficheurs, de modules de communication, et d'autres périphériques.
 
 Cette carte est le support de l'atelier Electronique Débutant pour le Club de Robotique et d'Electronique Programmable de Ploemeur (CREPP).
 
 Les isntructions de montage sont disponibles dans le fichier **INSTRUCTIONS.md**
+
+![img](.img/img.png)
 
 ## Fonctionnalités Principales
 

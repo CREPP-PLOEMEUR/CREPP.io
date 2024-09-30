@@ -1,5 +1,16 @@
 # Instructions de montage
 
+![img](Images/Top_View.jpg)
+
+# Remarque importante
+
+Lors de la programmation de la carte, il ne faut pas que le Jumper D8 soit placé sur
+son emplacement. Ou bien il faut presser le bouton LEFT lors du téléversement.
+
+Ce problème est du au fait que la broche D8 doit être à l'état BAS lors de la programmation 
+et que les boutons sont câblés avec une résistance qui impose un niveau HAUT par défaut.
+
+
 # Remarques générales
 
 On commence par monter les composants du plus bas au plus haut.
