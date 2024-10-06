@@ -10,12 +10,20 @@
 
 <!-- ATOC -->
 
+
 # CREPP.io 
 
 Ce projet consiste en la conception et la réalisation de cartes d'extension pour différents modules. La carte permet d'étendre les capacités de certains microcontrôleurs en ajoutant divers connecteurs, composants passifs et actifs, facilitant ainsi le développement de projets IoT (Internet des Objets). Elle est conçue pour offrir une interface facile d'utilisation pour la connexion de capteurs, d'afficheurs, de modules de communication, et d'autres périphériques.
 
 Cette carte est le support de l'atelier Electronique Débutant pour le Club de Robotique et d'Electronique Programmable de Ploemeur (CREPP).
 
+## Configuration de l'environnement
+
+Pour programmer les cartes, nous utiliserons le framework **PlatformIO** 
+
+Les instructions sont disponibles [sur cette page](SETUP.md)
+
+## Montage de la carte 
 
 Il convient tout d'abord de repérer le modèle de votre circuit :
 Le numéro de version est sous le QRCode.
@@ -23,14 +31,21 @@ Le numéro de version est sous le QRCode.
 Les instructions de montage sont disponibles dans les fichiers suivants : 
 
 - [Montage V1.0](PCB/V1.0/Assembly.md) - Version avec ESP12
+
 <img src="PCB/V1.0/.img/img.jpg" alt="Description de l'image" width="30%" />
 
 - [Montage V1.1](PCB/V1.1/Assembly.md) - Version avec ESP12 amelioré
 <img src="PCB/V1.1/.img/img.jpg" alt="Description de l'image" width="30%" />
 
+
 - [Montage V2.0](PCB/V2.0/Assembly.md) - Version avec Raspberry Pi Pico-(W)
 
 
+## Programmation de la carte 
+
+- [Codes V1.0](Codes/V1.X) - Code pour ESP12
+
+- [Codes V1.0](Codes/V2.X) - Code pour ESP12
 ## Fonctionnalités Principales
 
 - **Connectivité étendue :** La carte propose plusieurs connecteurs (PinHeaders, Sockets, Bornes à vis) pour l'intégration facile de différents modules et capteurs.

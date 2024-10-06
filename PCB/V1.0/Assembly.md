@@ -1,12 +1,5 @@
+<!-- ATOC -->
 # Sommaire
-
-# Sommaire
-- [Instructions de montage](#instructions-de-montage)
-- [Liste des composants](#liste-des-composants)
-- [Plan de montage](#plan-de-montage)
-- [Remarque importante](#remarque-importante)
-- [Remarques générales](#remarques-generales)
-
 
 - [Instructions de montage](#instructions-de-montage)
 - [Liste des composants](#liste-des-composants)
@@ -14,7 +7,9 @@
 - [Remarque importante](#remarque-importante)
 - [Remarques générales](#remarques-generales)
 
+<!-- ATOC -->
 [Revenir sur la page d'accueil](http://github.com/CREPP-PLOEMEUR/crepp.io)
+
 
 # Instructions de montage
 
@@ -73,7 +68,6 @@ Veuillez lire l'ensemble de cette page avant de commencer le montage.
 # Plan de montage
 
 ![Plan de montage de la face supérieure](bom/top.png)
-![Plan de montage de la face inférieure](bom/bottom.png)
 
 # Remarque importante
 
