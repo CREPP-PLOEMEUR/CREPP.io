@@ -12,12 +12,11 @@ Cette carte est le support de l'atelier Electronique Débutant pour le Club de R
 Il convient tout d'abord de repérer le modèle de votre circuit :
 Le numéro de version est sous le QRCode.
 
-![img](Images/Top_View.jpg)
 Les instructions de montage sont disponibles dans les fichiers suivants : 
 
-- [Montage V1.0](.montage_v1.0.md)
-- [Montage V1.1](.montage_v1.1.md)
-- [Montage V2.0](.montage_v2.0.md)
+- [Montage V1.0](.montage_v1.0.md) - Version avec ESP12
+- [Montage V1.1](.montage_v1.1.md) - Version avec ESP12
+- [Montage V2.0](.montage_v2.0.md) - Version avec Raspberry Pi Pico-(W)
 
 
 ## Fonctionnalités Principales
