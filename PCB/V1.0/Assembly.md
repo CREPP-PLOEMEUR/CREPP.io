@@ -1,5 +1,13 @@
 # Sommaire
 
+# Sommaire
+- [Instructions de montage](#instructions-de-montage)
+- [Liste des composants](#liste-des-composants)
+- [Plan de montage](#plan-de-montage)
+- [Remarque importante](#remarque-importante)
+- [Remarques générales](#remarques-generales)
+
+
 - [Instructions de montage](#instructions-de-montage)
 - [Liste des composants](#liste-des-composants)
 - [Plan de montage](#plan-de-montage)
