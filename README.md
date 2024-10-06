@@ -2,7 +2,7 @@
 # Sommaire
 
 - [CREPP.io](#crepp.io)
-  - [Configuration de l'environnement](#configuration-de-l'environnement)
+  - [Configuration](#configuration)
   - [Montage de la carte](#montage-de-la-carte)
   - [Programmation de la carte](#programmation-de-la-carte)
   - [Fonctions](#fonctions)
@@ -17,13 +17,14 @@
 
 
 
+
 # CREPP.io 
 
 Ce projet consiste en la conception et la réalisation de cartes d'extension pour différents modules. La carte permet d'étendre les capacités de certains microcontrôleurs en ajoutant divers connecteurs, composants passifs et actifs, facilitant ainsi le développement de projets IoT (Internet des Objets). Elle est conçue pour offrir une interface facile d'utilisation pour la connexion de capteurs, d'afficheurs, de modules de communication, et d'autres périphériques.
 
 Cette carte est le support de l'atelier Electronique Débutant pour le Club de Robotique et d'Electronique Programmable de Ploemeur (CREPP).
 
-## Configuration de l'environnement
+## Configuration
 
 Pour programmer les cartes, nous utiliserons le framework **PlatformIO** 
 
