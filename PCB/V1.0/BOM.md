@@ -2,13 +2,14 @@
 
 | Référence | Quantité | Désignation |
 |-----------|----------|-------------|
+| D3,D1,D12,D4,D2 | 5 | LED |
+| J14 | 1 | OLED_SOCKET |
 | R7,R27,R5,R12,R6,R8 | 6 | 270 |
 | J25 | 1 | BME |
 | RV1 | 1 | R_Potentiometer |
 | J20 | 1 | GND_Analog |
 | J30 | 1 | Servo |
 | J13,J15,J17,J3,J18 | 5 | Conn_02x04_Odd_Even |
-| D3,D1,D12,D4,D2 | 5 | LED |
 | SW4 | 1 | SW_Down |
 | J4,J5 | 2 | Right_Connector |
 | J19 | 1 | Analog_Inputs |
@@ -40,7 +41,6 @@
 | Q1 | 1 | IRF520 |
 | SW1 | 1 | SW_Left |
 | C1 | 1 | 100nF |
-| J14 | 1 | OLED_SOCKET |
 | J28 | 1 | SIG_HC-05 |
 | R11 | 1 | R11 |
 | J34 | 1 | Sig_Servo |
