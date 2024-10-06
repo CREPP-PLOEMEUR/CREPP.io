@@ -34,6 +34,10 @@
         - Aligner les trous de fixation M3  [C10]
 
 
+- 2.0 
+    - Mise à jour complète pour un Raspberry Pi Pico
+    - Ajout de capteurs
+    
 
 ## Auteurs
 

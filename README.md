@@ -3,13 +3,22 @@
 
 ![img](Images/Top_View.jpg)
 
-Ce projet consiste en la conception et la réalisation d'une carte d'extension pour le module ESP12 NodeMCU. La carte permet d'étendre les capacités du NodeMCU en ajoutant divers connecteurs, composants passifs et actifs, facilitant ainsi le développement de projets IoT (Internet des Objets). Elle est conçue pour offrir une interface facile d'utilisation pour la connexion de capteurs, d'afficheurs, de modules de communication, et d'autres périphériques.
+Ce projet consiste en la conception et la réalisation de cartes d'extension pour différents modules. La carte permet d'étendre les capacités de certains microcontrôleurs en ajoutant divers connecteurs, composants passifs et actifs, facilitant ainsi le développement de projets IoT (Internet des Objets). Elle est conçue pour offrir une interface facile d'utilisation pour la connexion de capteurs, d'afficheurs, de modules de communication, et d'autres périphériques.
 
 Cette carte est le support de l'atelier Electronique Débutant pour le Club de Robotique et d'Electronique Programmable de Ploemeur (CREPP).
 
-Les isntructions de montage sont disponibles dans le fichier **INSTRUCTIONS.md**
 
-![img](.img/img.png)
+
+Il convient tout d'abord de repérer le modèle de votre circuit :
+Le numéro de version est sous le QRCode.
+
+![img](Images/Top_View.jpg)
+Les instructions de montage sont disponibles dans les fichiers suivants : 
+
+- [Montage V1.0](.montage_v1.0.md)
+- [Montage V1.1](.montage_v1.1.md)
+- [Montage V2.0](.montage_v2.0.md)
+
 
 ## Fonctionnalités Principales
 
@@ -21,7 +30,7 @@ Les isntructions de montage sont disponibles dans le fichier **INSTRUCTIONS.md**
 
 ## Composants Clés
 
-- **Module ESP12 NodeMCU :** Le cœur du projet, un microcontrôleur Wi-Fi basé sur l'ESP8266.
+- **Module ESP12 NodeMCU / Raspberry Pi Pico W:** Le cœur du projet
 - **Convertisseur ADC (ADS1115) :** Permet des mesures analogiques précises.
 - **Horloge RTC (DS1307) :** Fournit une temporisation en temps réel pour les applications nécessitant une précision horaire.
 - **Optocoupleur (PC817) :** Assure l'isolation électrique entre différentes sections du circuit.
@@ -35,14 +44,13 @@ Le schéma du circuit et le design du PCB sont réalisés avec KiCad, un logicie
 
 ### Pré-requis
 
-- **Module ESP12 NodeMCU**
 - **Alimentation 5V ou 3.3V** pour la carte
 - **Divers capteurs et modules** selon les besoins du projet (OLED, HC-SR04, BME280, etc.)
 
 ### Étapes
 
 1. **Assemblez la carte** en soudant les composants selon le schéma fourni.
-2. **Connectez le module ESP12 NodeMCU** à la carte via les connecteurs dédiés.
+2. **Connectez le module** à la carte via les connecteurs dédiés.
 3. **Branchez vos capteurs et modules** aux connecteurs correspondants (I2C, SPI, Analogiques, etc.).
 5. **Téléversez votre code** sur le module ESP12 NodeMCU pour commencer à utiliser la carte d'extension.
 

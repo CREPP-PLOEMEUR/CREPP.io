@@ -14,6 +14,7 @@
       "vias": 1.0,
       "zones": 0.44999998807907104
     },
+    "ratsnest_display_mode": 0,
     "selection_filter": {
       "dimensions": true,
       "footprints": true,
@@ -74,7 +75,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "CREPP_BOARD.kicad_prl",
+    "filename": "CREPP.io.kicad_prl",
     "version": 3
   },
   "project": {
