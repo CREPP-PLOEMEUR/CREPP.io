@@ -1,4 +1,4 @@
-[Revenir sur la page d'accueil(github.com/CREPP-PLOEMEUR/crepp.io)
+[Revenir sur la page d'accueil](github.com/CREPP-PLOEMEUR/crepp.io)
 
 # Instructions de montage
 
@@ -52,6 +52,7 @@ Les instructions de montage concernent la version **1.0**
 | SW1 | 1 | SW_Left |
 | C1 | 1 | 100nF |
 | U14 | 1 | DS1307+ |
+
 
 
 # Remarque importante

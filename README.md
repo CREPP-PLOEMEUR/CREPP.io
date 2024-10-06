@@ -14,9 +14,9 @@ Le numéro de version est sous le QRCode.
 
 Les instructions de montage sont disponibles dans les fichiers suivants : 
 
-- [Montage V1.0](.montage_v1.0.md) - Version avec ESP12
-- [Montage V1.1](.montage_v1.1.md) - Version avec ESP12
-- [Montage V2.0](.montage_v2.0.md) - Version avec Raspberry Pi Pico-(W)
+- [Montage V1.0](PCB/1.0/Assembly.md) - Version avec ESP12
+- [Montage V1.1](PCB/1.1/Assembly.md) - Version avec ESP12
+- [Montage V2.0](PCB/2.0/Assembly.md) - Version avec Raspberry Pi Pico-(W)
 
 
 ## Fonctionnalités Principales
