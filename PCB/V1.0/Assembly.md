@@ -1,4 +1,4 @@
-[Revenir sur la page d'accueil](github.com/CREPP-PLOEMEUR/crepp.io)
+[Revenir sur la page d'accueil](http://github.com/CREPP-PLOEMEUR/crepp.io)
 
 # Instructions de montage
 
