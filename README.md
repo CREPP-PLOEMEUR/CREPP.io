@@ -12,8 +12,10 @@ Les instructions de montage sont disponibles dans les fichiers suivants :
 
 - [Montage V1.0](PCB/V1.0/Assembly.md) - Version avec ESP12
 <img src="PCB/V1.0/.img/img.jpg" alt="Description de l'image" width="30%" />
+
 - [Montage V1.1](PCB/V1.1/Assembly.md) - Version avec ESP12 amelioré
 <img src="PCB/V1.1/.img/img.jpg" alt="Description de l'image" width="30%" />
+
 - [Montage V2.0](PCB/V2.0/Assembly.md) - Version avec Raspberry Pi Pico-(W)
 
 
