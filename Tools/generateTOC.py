@@ -1,5 +1,5 @@
 import re
-
+import sys
 def generate_markdown_toc(file_path):
     try:
         # Ouvrir le fichier Markdown et lire son contenu
@@ -44,5 +44,7 @@ def generate_markdown_toc(file_path):
 
 # Exemple d'utilisation
 if __name__ == "__main__":
-    markdown_file = 'README.md'  # Remplacez par le chemin de votre fichier Markdown
+    inputName = sys.argv[1]
+
+    markdown_file = inputName  # Remplacez par le chemin de votre fichier Markdown
     generate_markdown_toc(markdown_file)
