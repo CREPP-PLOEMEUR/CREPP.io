@@ -20,7 +20,7 @@
         - ajouter une sérigraphie pour le module ESP12 [C3]
         - ajouter les broches par défaut des boutons (DW, DX, DY, DZ...) [C4]
         - ajouter une zone blanche pour numéroter le PCB [C5]
-        - ajouter une sériphraphie (LED RTC) pour le connecteur JP7||JP1
+        - ajouter une sérigraphie (LED RTC) pour le connecteur JP7||JP1
     
     - Correction de la schématique :
 
