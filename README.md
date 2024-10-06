@@ -5,13 +5,14 @@
   - [Configuration de l'environnement](#configuration-de-l'environnement)
   - [Montage de la carte](#montage-de-la-carte)
   - [Programmation de la carte](#programmation-de-la-carte)
-  - [Fonctionnalités Principales](#fonctionnalites-principales)
-  - [Composants Clés](#composants-cles)
+  - [Fonctions](#fonctions)
+  - [Composants](#composants)
   - [Installation et Utilisation](#installation-et-utilisation)
   - [Auteurs](#auteurs)
   - [Remerciements](#remerciements)
 
 <!-- ATOC -->
+
 
 
 
@@ -51,7 +52,7 @@ Les instructions de montage sont disponibles dans les fichiers suivants :
 - [Codes V1.0](Codes/V1.X) - Code pour ESP12
 
 - [Codes V1.0](Codes/V2.X) - Code pour ESP12
-## Fonctionnalités Principales
+## Fonctions
 
 - **Connectivité étendue :** La carte propose plusieurs connecteurs (PinHeaders, Sockets, Bornes à vis) pour l'intégration facile de différents modules et capteurs.
 - **Indicateurs visuels :** Des LEDs sont présentes pour indiquer l'état des signaux.
@@ -59,7 +60,7 @@ Les instructions de montage sont disponibles dans les fichiers suivants :
 - **Horloge en temps réel :** Un module RTC (DS1307) est intégré pour fournir une mesure précise du temps.
 - **Isolation et protection :** Un optocoupleur (PC817) est utilisé pour isoler électriquement certaines parties du circuit.
 
-## Composants Clés
+## Composants
 
 - **Module ESP12 NodeMCU / Raspberry Pi Pico W:** Le cœur du projet
 - **Convertisseur ADC (ADS1115) :** Permet des mesures analogiques précises.
