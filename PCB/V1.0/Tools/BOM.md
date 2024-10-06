@@ -1,15 +1,7 @@
-[Revenir sur la page d'accueil(github.com/CREPP-PLOEMEUR/crepp.io)
-
-# Instructions de montage
-
-Les instructions de montage concernent la version **1.0**
-
-# Liste des composants
-
 | Référence | Quantité | Désignation |
 |-----------|----------|-------------|
 | R7,R27,R5,R12,R6,R8 | 6 | 270 Ω |
-| RV1 | 1 | r_potentiometer |
+| RV1 | 1 | r_potentioMΩeter |
 | R1,R2,R3,R16,R15,R4,R9,R10 | 8 | 10kΩ |
 | R11 | 1 | r11 Ω |
 | R14 | 1 | 1kΩ |
@@ -52,24 +44,3 @@ Les instructions de montage concernent la version **1.0**
 | SW1 | 1 | SW_Left |
 | C1 | 1 | 100nF |
 | U14 | 1 | DS1307+ |
-
-
-# Remarque importante
-
-Lors de la programmation de la carte, il ne faut pas que le Jumper D8 soit placé sur
-son emplacement. Ou bien il faut presser le bouton LEFT lors du téléversement.
-
-Ce problème est du au fait que la broche D8 doit être à l'état BAS lors de la programmation 
-et que les boutons sont câblés avec une résistance qui impose un niveau HAUT par défaut.
-
-
-# Remarques générales
-
-On commence par monter les composants du plus bas au plus haut.
-
-C'est à dire que si il y a des composants montés en surfaces (résistances, circuits intégrés, condensateurs...), il vaut mieux les monter 
-car les composants plus hauts vont gêner.
-On fait généralement les résistances traversantes dans un second ordre.
-
-
-On termine donc par les grands composants (potentiomètres).
