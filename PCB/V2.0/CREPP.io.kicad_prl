@@ -8,18 +8,18 @@
     "high_contrast_mode": 0,
     "net_color_mode": 1,
     "opacity": {
-      "images": 0.6,
+      "images": 0.699999988079071,
       "pads": 0.6899999976158142,
       "tracks": 0.5199999809265137,
       "vias": 0.6200000047683716,
-      "zones": 0.1599999964237213
+      "zones": 0.800000011920929
     },
     "selection_filter": {
       "dimensions": true,
       "footprints": true,
       "graphics": true,
       "keepouts": true,
-      "lockedItems": true,
+      "lockedItems": false,
       "otherItems": true,
       "pads": true,
       "text": true,

@@ -3965,6 +3965,45 @@
 		)
 	)
 	(sheet
+		(at 86.36 127)
+		(size 17.78 17.78)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "17a13a70-dbe2-4ce7-8cfb-2751d401edd0")
+		(property "Sheetname" "NRF24"
+			(at 86.36 126.2884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Modules/NRF24.kicad_sch"
+			(at 86.36 145.3646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "CREPP.io"
+				(path "/8bcd0d00-b75f-4070-8d50-196a2022a31c"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 38.1 106.68)
 		(size 17.78 17.78)
 		(fields_autoplaced yes)
@@ -4187,6 +4226,95 @@
 			(project "CREPP.io"
 				(path "/8bcd0d00-b75f-4070-8d50-196a2022a31c"
 					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 52.07 128.27)
+		(size 17.78 17.78)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "82793622-14ac-4029-92dc-96c42c2d5609")
+		(property "Sheetname" "IMU"
+			(at 52.07 127.5584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Modules/IMU.kicad_sch"
+			(at 52.07 146.6346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "GND" passive
+			(at 52.07 135.89 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "feed28c1-43e0-436c-b3d9-fedc2ee2662d")
+		)
+		(pin "+3.3V" input
+			(at 52.07 129.54 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9130075c-434d-40e7-b7d8-f0d41869f291")
+		)
+		(pin "V_{LDR}" output
+			(at 69.85 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6eef9bb5-b59c-4ef9-99f1-51fb77ac4ea8")
+		)
+		(pin "+5V" input
+			(at 52.07 132.08 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1bfa1ee3-d62f-4434-9846-04383b4ecc9c")
+		)
+		(pin "{I2C}" input
+			(at 69.85 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e1ddcac8-7a8b-477e-acb0-c6681a4bca05")
+		)
+		(instances
+			(project "CREPP.io"
+				(path "/8bcd0d00-b75f-4070-8d50-196a2022a31c"
+					(page "10")
 				)
 			)
 		)

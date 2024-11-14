@@ -629,8 +629,16 @@
       "Power"
     ],
     [
+      "82793622-14ac-4029-92dc-96c42c2d5609",
+      "IMU"
+    ],
+    [
       "7aa0c2f2-9b2b-4721-8901-153e29be4bda",
       "PCB_Interface"
+    ],
+    [
+      "17a13a70-dbe2-4ce7-8cfb-2751d401edd0",
+      "NRF24"
     ]
   ],
   "text_variables": {}
