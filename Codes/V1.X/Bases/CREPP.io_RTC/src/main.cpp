@@ -1,4 +1,8 @@
+/*
+NE PAS OUBLIER LE JUMPER JP1
+*/
 #include <Arduino.h>
+
 #include <SPI.h>
 #include <Wire.h>
 #include <RTClib.h>
@@ -24,8 +28,8 @@ void setup()
 
   // Configurer le signal SQW pour faire clignoter la LED
   rtc.writeSqwPinMode(Ds1307SqwPinMode::DS1307_SquareWave1HZ); // Configurer pour une sortie 4kHz
-  delay(1000);
-  rtc.writeSqwPinMode(Ds1307SqwPinMode::DS1307_SquareWave4kHz); // Configurer pour une sortie 4kHz
+
+ 
 }
 
 void loop() {
@@ -43,4 +47,5 @@ void loop() {
   Serial.print(':');
   Serial.print(now.second(), DEC);
   Serial.println();
+  delay(1000);
 }

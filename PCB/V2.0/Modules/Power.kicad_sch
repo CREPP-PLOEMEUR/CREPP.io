@@ -2161,6 +2161,12 @@
 		(uuid "81eb3135-e41d-4c85-9efc-fab2db2588cc")
 	)
 	(junction
+		(at 76.2 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8bf3a38f-a3a4-4014-8d56-bbeaf38d4972")
+	)
+	(junction
 		(at 91.44 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2201,6 +2207,16 @@
 			(type default)
 		)
 		(uuid "08e2774d-d2d3-446e-a4f3-9627209b8df0")
+	)
+	(wire
+		(pts
+			(xy 55.88 105.41) (xy 57.15 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09302262-c1c1-4a99-ad00-c15209cfb49b")
 	)
 	(wire
 		(pts
@@ -2284,6 +2300,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 110.49) (xy 62.23 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3356df96-e4be-4c26-bee2-ec1ea3a68337")
+	)
+	(wire
+		(pts
 			(xy 100.33 31.75) (xy 101.6 31.75)
 		)
 		(stroke
@@ -2301,6 +2327,16 @@
 			(type default)
 		)
 		(uuid "3eb88aac-04ce-4135-867f-5cd998772b93")
+	)
+	(wire
+		(pts
+			(xy 76.2 107.95) (xy 76.2 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44897737-5c03-46b2-ba7a-5e5f10783953")
 	)
 	(wire
 		(pts
@@ -2604,6 +2640,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 107.95) (xy 76.2 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5cf217b-5c56-451e-b5b1-dc370b4211a1")
+	)
+	(wire
+		(pts
 			(xy 81.28 87.63) (xy 78.74 87.63)
 		)
 		(stroke
@@ -2633,6 +2679,17 @@
 			(justify left bottom)
 		)
 		(uuid "018d13aa-4e94-442b-a3ea-c4747c973c76")
+	)
+	(label "GND"
+		(at 62.23 110.49 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0c4d0da4-ce45-42b6-9a5c-39fd8ebd2dc2")
 	)
 	(label "Ext_Servo"
 		(at 93.98 81.28 180)
@@ -3208,7 +3265,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 41.148 59.69 90)
 			(effects
 				(font
@@ -3275,7 +3332,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 41.148 38.1 90)
 			(effects
 				(font
@@ -3404,6 +3461,77 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 50.8 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "74454c5d-8ec1-4d69-817b-7c4f2cf474fe")
+		(property "Reference" "J26"
+			(at 51.435 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Servo"
+			(at 51.435 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+			(at 50.8 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 50.8 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "30957f5b-ddb0-44cb-a1a8-8b14cff8dc39")
+		)
+		(pin "3"
+			(uuid "8242a794-ce27-427c-ba18-9120bed78224")
+		)
+		(pin "1"
+			(uuid "e1dcff9f-cc25-4038-a6cf-1d1c1e43e9b0")
+		)
+		(instances
+			(project "CREPP.io"
+				(path "/8bcd0d00-b75f-4070-8d50-196a2022a31c/e1d3bd42-1f6e-4b6a-91f5-e751dfb804bc"
+					(reference "J26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 59.69 43.18 180)
 		(unit 1)
@@ -3428,7 +3556,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 61.468 43.18 90)
 			(effects
 				(font
@@ -3612,6 +3740,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 62.23 105.41 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "add1d7d9-aa38-48a2-874b-1afa2a76426f")
+		(property "Reference" "J29"
+			(at 64.262 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Sig_Servo"
+			(at 61.595 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 62.23 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 62.23 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b16650dd-0638-4aee-acb2-48f6a5437e53")
+		)
+		(instances
+			(project "CREPP.io"
+				(path "/8bcd0d00-b75f-4070-8d50-196a2022a31c/e1d3bd42-1f6e-4b6a-91f5-e751dfb804bc"
+					(reference "J29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 81.28 50.8 0)
 		(unit 1)
@@ -3639,7 +3831,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 79.502 50.8 90)
 			(effects
 				(font
@@ -3709,7 +3901,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 79.502 38.1 90)
 			(effects
 				(font
