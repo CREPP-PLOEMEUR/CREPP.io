@@ -13,7 +13,7 @@
 #define ADS1115_ADDRESS_1 0x48
 #define ADS1115_ADDRESS_2 0x49
 
-inline I2C_Scan() {
+inline void I2C_Scan() {
 
   Wire.begin();
 
@@ -58,7 +58,8 @@ inline I2C_Scan() {
   else
     Serial.println("done\n");
 
-  delay(5000);           // wait 5 seconds for next scan
+  delay(1000);           // wait 5 seconds for next scan
 
 }
 
+#endif

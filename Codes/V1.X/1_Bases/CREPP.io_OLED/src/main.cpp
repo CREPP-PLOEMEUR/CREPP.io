@@ -12,6 +12,7 @@
 #include <Wire.h>
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1306.h>
+#include <Lib/I2C_Scanner.h>
 /*
  *   Macros
  */
@@ -33,6 +34,7 @@ void setup()
    if (!status_OLED) 
   {
     Serial.println("Could not find a valid OLED sensor, check wiring!");
+    I2C_Scan();
   }
   else
   {
