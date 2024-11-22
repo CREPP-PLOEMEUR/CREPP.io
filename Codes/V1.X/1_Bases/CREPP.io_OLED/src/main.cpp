@@ -2,9 +2,7 @@
  * This program is free software; you can redistribute it and/or
  * modify without any restriction
  * 
- * This file create a web server based on ESP12 NodeMCU.
- * You can load a page and turn-on and turn off the internal LED
- * Major informations about connection are displayed on OLED screen
+ * This file write text on OLED screen
  */
 
 /*
