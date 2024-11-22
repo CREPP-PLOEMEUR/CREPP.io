@@ -12,7 +12,6 @@
 #include <Wire.h>
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1306.h>
-#include <I2C_Scan.h>
 /*
  *   Macros
  */
@@ -40,6 +39,7 @@ void setup()
     Serial.println("Found a valid OLED sensor");
   }
   delay(100);
+  display.clearDisplay();
   display.setRotation(2);
   display.setTextSize(1);               //Size factor
   display.setCursor(0, 0);              //Set cursor to (0,0)
