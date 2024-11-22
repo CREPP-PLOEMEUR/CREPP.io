@@ -16,8 +16,8 @@ r = VCC / ( (2^ADC_RESOLUTION) - 1) = 3.3 / ( (2^10) - 1) = 3.3 / 1023 = 0,00322
 
 void setup() 
 {
-    Serial.begin(9600);         //Initialise la communication série
-    
+    Serial.begin(MONITOR_SPEED);         //Initialise la communication série
+    pinMode(D4, OUTPUT); //Configure la broche D4 en sortie
     pinMode(POT, INPUT); //Broche en entrée
 
 }
@@ -26,10 +26,18 @@ void loop()
 { 
   
   uint16_t rawValue = analogRead(POT);            //Lecture de la valeur
-  Serial.print("Raw Value: "+String(rawValue)); //Affichage de la valeur sur le port série
   float voltage = rawValue * ADC_MIN_VALUE;
-  Serial.println(" - Voltage : "+String(voltage)+" V"); //Affichage de la valeur sur le port série
+  Serial.println(" - Tension : "+String(voltage)+" V"); //Affichage de la valeur sur le port série
 
   delay(100); //Rafraîchissement de la valeur toutes les 100 ms
+  Serial.print("Valeur analogique : ");
+  Serial.println(rawValue); // Affiche la valeur lue
+          
+  if(rawValue >= 700)
+  {
+    digitalWrite(D4, LOW);
+  }
+  else {
+    digitalWrite(D4, HIGH); 
+  }
 }
-

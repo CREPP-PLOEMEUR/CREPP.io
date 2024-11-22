@@ -1,6 +1,7 @@
 /*!
 CREPP.io
 Ce code permet de tester le bon fonctionnement des boutons RIGHT, UP et DOWN
+Ne pas oublier de mettre les jumpers D5, D6 et D7
 NE PAS UTILISER LE BOUTON LEFT et ne pas oublier de retirer son jumper D8 !
 */
 #include <Arduino.h> //For Platform.io
@@ -13,7 +14,8 @@ void setup()
 {
   pinMode(buttonUpPin, INPUT); //Input
   pinMode(buttonDownPin, INPUT); //Input
-  pinMode(buttonRight, INPUT); //Input
+  pinMode(buttonRightPin, INPUT); //Input
+
   Serial.begin(MONITOR_SPEED); //Communication with computer
 }
       
