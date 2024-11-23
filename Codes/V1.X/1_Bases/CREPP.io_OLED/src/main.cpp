@@ -12,7 +12,7 @@
 #include <Wire.h>
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1306.h>
-#include <Lib/I2C_Scanner.h>
+#include <I2C_Scanner.h>
 /*
  *   Macros
  */
@@ -28,13 +28,14 @@ Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 void setup() 
 {
   
-  Serial.begin(MONITOR_SPEED);      
+  Serial.begin(MONITOR_SPEED);  
+  I2C_Scan();    
 
   bool status_OLED = display.begin(SSD1306_SWITCHCAPVCC, SCREEN_ADDRESS);
    if (!status_OLED) 
   {
     Serial.println("Could not find a valid OLED sensor, check wiring!");
-    I2C_Scan();
+    //I2C_Scan();
   }
   else
   {
