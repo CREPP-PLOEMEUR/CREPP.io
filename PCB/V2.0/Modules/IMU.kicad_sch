@@ -524,6 +524,16 @@
 		)
 		(uuid "ff7a2a44-3449-40de-89a2-57bbfb84041d")
 	)
+	(text "https://fr.wikiversity.org/wiki/Micro_contrôleurs_AVR/Travail_pratique/Utilisation_d%27un_Accéléromètre_MPU6050"
+		(exclude_from_sim no)
+		(at 133.35 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f86a768b-a5e4-44b1-99c9-541ec3a0a640")
+	)
 	(label "+5V"
 		(at 25.4 31.75 180)
 		(fields_autoplaced yes)

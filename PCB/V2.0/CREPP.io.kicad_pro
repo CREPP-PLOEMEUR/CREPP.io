@@ -617,10 +617,6 @@
       "MCU"
     ],
     [
-      "08979a89-049a-4990-895d-6e5b1afc0339",
-      "IO_Extender"
-    ],
-    [
       "7d5e0927-d56c-4e49-a3db-e12f7a1550df",
       "RTC"
     ],
@@ -639,6 +635,22 @@
     [
       "17a13a70-dbe2-4ce7-8cfb-2751d401edd0",
       "NRF24"
+    ],
+    [
+      "c4fb65bd-53fe-465d-8813-dbd5961ee741",
+      "I2C_Interface"
+    ],
+    [
+      "d6458e8f-798a-4b4d-bb96-eec149c06e7d",
+      "MOSFET"
+    ],
+    [
+      "e5deda31-4de6-4c52-981c-0289ecc7c1e7",
+      "Motors"
+    ],
+    [
+      "ac27f973-3d9e-4d4f-ac23-af97b38f4de1",
+      "L239D_Interfaces"
     ]
   ],
   "text_variables": {}

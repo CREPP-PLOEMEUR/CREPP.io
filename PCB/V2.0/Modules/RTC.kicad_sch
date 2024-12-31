@@ -349,442 +349,7 @@
 				)
 			)
 		)
-		(symbol "Device:LED"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LED"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Light emitting diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "LED diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LED_0_1"
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LED_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Device:R"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Jumper:Jumper_2_Bridged"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim yes)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "JP"
-				(at 0 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Jumper_2_Bridged"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Jumper, 2-pole, closed/bridged"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Jumper SPST"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Jumper_2_Bridged_0_0"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Jumper_2_Bridged_0_1"
-				(arc
-					(start 1.524 0.254)
-					(mid 0 0.762)
-					(end -1.524 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Jumper_2_Bridged_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Timer_RTC:DS1307+"
+		(symbol "Timer_RTC:DS1302+"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -796,13 +361,12 @@
 					)
 				)
 			)
-			(property "Value" "DS1307+"
-				(at 1.27 8.89 0)
+			(property "Value" "DS1302+"
+				(at 6.35 8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
@@ -814,7 +378,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://datasheets.maximintegrated.com/en/ds/DS1307.pdf"
+			(property "Datasheet" "https://datasheets.maximintegrated.com/en/ds/DS1302.pdf"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -823,7 +387,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "64 x 8, Serial, I2C Real-time clock, 4.5V to 5.5V VCC, 0°C to +70°C, DIP-8"
+			(property "Description" "Trickle-Charge Timekeeping Chip, 2.0V to 5.5V VCC, 0°C to +70°C, DIP-8"
 				(at 0 0 0)
 				(effects
 					(font
@@ -850,7 +414,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "DS1307+_0_1"
+			(symbol "DS1302+_1_1"
 				(rectangle
 					(start -10.16 7.62)
 					(end 10.16 -7.62)
@@ -862,12 +426,10 @@
 						(type background)
 					)
 				)
-			)
-			(symbol "DS1307+_1_1"
-				(pin input line
-					(at -12.7 -2.54 0)
+				(pin power_in line
+					(at -2.54 10.16 270)
 					(length 2.54)
-					(name "X1"
+					(name "VCC2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -883,9 +445,9 @@
 					)
 				)
 				(pin input line
-					(at -12.7 -5.08 0)
+					(at -12.7 -2.54 0)
 					(length 2.54)
-					(name "X2"
+					(name "X1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -900,10 +462,10 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 0 10.16 270)
+				(pin input line
+					(at -12.7 -5.08 0)
 					(length 2.54)
-					(name "VBAT"
+					(name "X2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -936,10 +498,10 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin input line
 					(at -12.7 2.54 0)
 					(length 2.54)
-					(name "SDA"
+					(name "CE"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -954,10 +516,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at -12.7 5.08 0)
+				(pin bidirectional line
+					(at 12.7 5.08 180)
 					(length 2.54)
-					(name "SCL"
+					(name "I/O"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -972,10 +534,10 @@
 						)
 					)
 				)
-				(pin open_collector line
-					(at 12.7 0 180)
+				(pin input line
+					(at -12.7 5.08 0)
 					(length 2.54)
-					(name "SQW/OUT"
+					(name "SCLK"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -991,9 +553,9 @@
 					)
 				)
 				(pin power_in line
-					(at -2.54 10.16 270)
+					(at 0 10.16 270)
 					(length 2.54)
-					(name "VCC"
+					(name "VCC1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1021,6 +583,15 @@
 		(uuid "25d8b287-5826-4918-b650-20e2573a3b42")
 	)
 	(bus_entry
+		(at 62.23 66.04)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86230f8d-58f8-45ac-87fb-50aed0cd6ed3")
+	)
+	(bus_entry
 		(at 62.23 60.96)
 		(size -2.54 2.54)
 		(stroke
@@ -1031,7 +602,7 @@
 	)
 	(bus
 		(pts
-			(xy 59.69 69.85) (xy 59.69 66.04)
+			(xy 59.69 69.85) (xy 59.69 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1079,16 +650,6 @@
 		)
 		(uuid "441a33c4-254a-4c9a-b385-1862311720b5")
 	)
-	(wire
-		(pts
-			(xy 127 66.04) (xy 129.54 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44f2092c-db8e-4b15-b61f-21744a657945")
-	)
 	(bus
 		(pts
 			(xy 58.42 69.85) (xy 59.69 69.85)
@@ -1109,6 +670,16 @@
 		)
 		(uuid "72dce705-1569-459d-bba3-92c39e5305b6")
 	)
+	(bus
+		(pts
+			(xy 59.69 68.58) (xy 59.69 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a2b5c7a-cf21-4500-9084-ada2354392a1")
+	)
 	(wire
 		(pts
 			(xy 107.95 48.26) (xy 110.49 48.26)
@@ -1121,16 +692,6 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 60.96) (xy 83.82 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d90fa72-3e38-4624-ac5d-26540fd4ab88")
-	)
-	(wire
-		(pts
 			(xy 82.55 71.12) (xy 82.55 76.2)
 		)
 		(stroke
@@ -1138,6 +699,16 @@
 			(type default)
 		)
 		(uuid "a4d14b86-e361-4cab-9085-ef8066381381")
+	)
+	(wire
+		(pts
+			(xy 62.23 63.5) (xy 63.5 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a93d2155-4df2-4569-b502-7585d53c27c4")
 	)
 	(wire
 		(pts
@@ -1161,17 +732,17 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 52.07) (xy 93.98 55.88)
+			(xy 62.23 66.04) (xy 63.5 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c611196d-73b0-4f8a-9e5d-f40e913368f9")
+		(uuid "c96158f8-1fd8-4f18-97d1-ee08f1ec7393")
 	)
 	(wire
 		(pts
-			(xy 129.54 46.99) (xy 129.54 50.8)
+			(xy 93.98 52.07) (xy 93.98 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1181,13 +752,13 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 66.04) (xy 116.84 66.04)
+			(xy 62.23 60.96) (xy 63.5 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e007a907-edea-4102-ad10-63bfc000e12e")
+		(uuid "cd539fef-f98e-493d-80f0-7d60e32e0149")
 	)
 	(wire
 		(pts
@@ -1211,16 +782,6 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 63.5) (xy 83.82 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4bc7f59-3510-4b9a-9439-7f80792545b0")
-	)
-	(wire
-		(pts
 			(xy 81.28 76.2) (xy 82.55 76.2)
 		)
 		(stroke
@@ -1229,17 +790,7 @@
 		)
 		(uuid "f782f78d-9b18-46e1-8f19-81b1fe96c70d")
 	)
-	(wire
-		(pts
-			(xy 82.55 52.07) (xy 93.98 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd80074b-7c33-4886-ae5d-604303ba4e7b")
-	)
-	(label "SCL"
+	(label "MOSI"
 		(at 63.5 60.96 0)
 		(fields_autoplaced yes)
 		(effects
@@ -1272,7 +823,40 @@
 		)
 		(uuid "223f37b3-3797-4ce3-8d04-318ea2d0d711")
 	)
-	(label "SDA"
+	(label "SCK"
+		(at 83.82 60.96 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "303bd7ac-97a9-4460-a364-69204ea236ab")
+	)
+	(label "CE"
+		(at 63.5 66.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "705e3317-1b5d-4157-99c2-b8b421c15767")
+	)
+	(label "MOSI"
+		(at 109.22 60.96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "85166e60-91b6-4356-a700-50683db9748c")
+	)
+	(label "SCK"
 		(at 63.5 63.5 0)
 		(fields_autoplaced yes)
 		(effects
@@ -1294,6 +878,17 @@
 		)
 		(uuid "cf091a46-ac1a-45d5-8d24-eaabc8593d0e")
 	)
+	(label "CE"
+		(at 83.82 63.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d27989ce-7d9a-4179-8a19-6a15b905aafc")
+	)
 	(hierarchical_label "GND"
 		(shape passive)
 		(at 49.53 80.01 180)
@@ -1308,7 +903,7 @@
 	)
 	(hierarchical_label "+3.3V"
 		(shape input)
-		(at 129.54 46.99 90)
+		(at 93.98 52.07 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1318,19 +913,7 @@
 		)
 		(uuid "9e9a4b65-b8b9-4210-8666-79684514b6bb")
 	)
-	(hierarchical_label "+5V"
-		(shape input)
-		(at 82.55 52.07 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a91c6e2f-1369-4a00-97d2-d49a9f4f5276")
-	)
-	(hierarchical_label "{I2C}"
+	(hierarchical_label "{SPI}"
 		(shape input)
 		(at 58.42 69.85 180)
 		(fields_autoplaced yes)
@@ -1343,81 +926,7 @@
 		(uuid "c7c2f019-2291-4c4a-9c1f-1b9855646f45")
 	)
 	(symbol
-		(lib_id "Jumper:Jumper_2_Bridged")
-		(at 121.92 66.04 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "09229f77-742c-45a5-90a4-719bcf2f0400")
-		(property "Reference" "JP7"
-			(at 126.238 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Jumper"
-			(at 121.92 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 121.92 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 121.92 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, closed/bridged"
-			(at 121.92 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "111ab48b-6586-412a-8428-dcd322014db8")
-		)
-		(pin "2"
-			(uuid "48db3fcf-0925-46e4-8c85-3f737adb322e")
-		)
-		(instances
-			(project "Tracker"
-				(path "/60c5e70b-bc37-4402-aa86-9378cecb8f85/5d9555c7-4fd3-4187-a03c-c3d0cf6806ca"
-					(reference "JP7")
-					(unit 1)
-				)
-			)
-			(project "CREPP.io"
-				(path "/8bcd0d00-b75f-4070-8d50-196a2022a31c/7d5e0927-d56c-4e49-a3db-e12f7a1550df"
-					(reference "JP7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Timer_RTC:DS1307+")
+		(lib_id "Timer_RTC:DS1302+")
 		(at 96.52 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1425,17 +934,17 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "31f919f3-86a3-43ac-96fc-6311969c6cd8")
-		(property "Reference" "U14"
-			(at 113.03 59.7214 0)
+		(uuid "0adb707e-8fa6-4603-abcb-d7b9b8965deb")
+		(property "Reference" "U4"
+			(at 113.03 54.6414 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "DS1307+"
-			(at 113.03 62.2614 0)
+		(property "Value" "DS1302+"
+			(at 113.03 57.1814 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1451,7 +960,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheets.maximintegrated.com/en/ds/DS1307.pdf"
+		(property "Datasheet" "https://datasheets.maximintegrated.com/en/ds/DS1302.pdf"
 			(at 96.52 71.12 0)
 			(effects
 				(font
@@ -1460,7 +969,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "64 x 8, Serial, I2C Real-time clock, 4.5V to 5.5V VCC, 0°C to +70°C, DIP-8"
+		(property "Description" "Trickle-Charge Timekeeping Chip, 2.0V to 5.5V VCC, 0°C to +70°C, DIP-8"
 			(at 96.52 66.04 0)
 			(effects
 				(font
@@ -1469,116 +978,34 @@
 				(hide yes)
 			)
 		)
-		(pin "3"
-			(uuid "a61dfc20-ca78-4107-8434-88bb5bcbd42c")
+		(pin "5"
+			(uuid "e0e12915-7da6-469a-8ced-289551a3a612")
 		)
 		(pin "8"
-			(uuid "02ddb3c3-c01d-4384-97b9-e9d02a3913c0")
-		)
-		(pin "2"
-			(uuid "6bd8a9c8-6080-484b-9121-43b7ad6142cb")
+			(uuid "9f7f79b6-19e5-4aff-9371-260aecb4cad3")
 		)
 		(pin "1"
-			(uuid "48f51ab6-9a0c-4dd3-be46-09048d531188")
+			(uuid "cfbd1298-c8af-40eb-ae22-333aebb65257")
 		)
 		(pin "4"
-			(uuid "4b36dd23-b092-4cf5-842b-7fdbe58210dd")
+			(uuid "fc683326-e464-4e91-b800-4c8fa9885950")
 		)
-		(pin "5"
-			(uuid "53ab521b-bcd5-41da-8b33-1e37d579784c")
-		)
-		(pin "6"
-			(uuid "2f802d1a-474b-4c6d-931e-d5fa6e71fa3e")
-		)
-		(pin "7"
-			(uuid "c01e09c3-cedd-4ca9-84b5-db1260ddb973")
-		)
-		(instances
-			(project "Tracker"
-				(path "/60c5e70b-bc37-4402-aa86-9378cecb8f85/5d9555c7-4fd3-4187-a03c-c3d0cf6806ca"
-					(reference "U14")
-					(unit 1)
-				)
-			)
-			(project "CREPP.io"
-				(path "/8bcd0d00-b75f-4070-8d50-196a2022a31c/7d5e0927-d56c-4e49-a3db-e12f7a1550df"
-					(reference "U14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 129.54 54.61 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "419190d3-77b3-4207-b44b-23c3b422f541")
-		(property "Reference" "D12"
-			(at 133.35 54.9275 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 133.35 57.4675 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_THT:LED_D5.0mm"
-			(at 129.54 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 129.54 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 129.54 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b27b34eb-e2fa-40a0-9f65-b83199e963d0")
+		(pin "3"
+			(uuid "c70f30c9-75e5-4fe0-aa9b-e4dec0123546")
 		)
 		(pin "2"
-			(uuid "a226f08a-02bf-4b5b-b8c0-e7272ba9a17e")
+			(uuid "c2be4f8d-16ce-4b50-823c-64feb15abcb1")
+		)
+		(pin "7"
+			(uuid "5ed8dfce-c2b1-400b-940f-5d96e99caddc")
+		)
+		(pin "6"
+			(uuid "8beadc11-0ed0-4882-80cd-941ce46a83ab")
 		)
 		(instances
-			(project "Tracker"
-				(path "/60c5e70b-bc37-4402-aa86-9378cecb8f85/5d9555c7-4fd3-4187-a03c-c3d0cf6806ca"
-					(reference "D12")
-					(unit 1)
-				)
-			)
 			(project "CREPP.io"
 				(path "/8bcd0d00-b75f-4070-8d50-196a2022a31c/7d5e0927-d56c-4e49-a3db-e12f7a1550df"
-					(reference "D12")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -1722,82 +1149,6 @@
 			(project "CREPP.io"
 				(path "/8bcd0d00-b75f-4070-8d50-196a2022a31c/7d5e0927-d56c-4e49-a3db-e12f7a1550df"
 					(reference "Y2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 129.54 62.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f7b0fa24-7da0-4926-ba73-3caf9a24e947")
-		(property "Reference" "R27"
-			(at 132.08 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "270"
-			(at 132.08 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 127.762 62.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 129.54 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 129.54 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d89e62c0-c8ea-4f3d-954d-2aa66424b456")
-		)
-		(pin "2"
-			(uuid "c3597e2a-6ee0-4914-bfea-8fa2d1019047")
-		)
-		(instances
-			(project "Tracker"
-				(path "/60c5e70b-bc37-4402-aa86-9378cecb8f85/5d9555c7-4fd3-4187-a03c-c3d0cf6806ca"
-					(reference "R27")
-					(unit 1)
-				)
-			)
-			(project "CREPP.io"
-				(path "/8bcd0d00-b75f-4070-8d50-196a2022a31c/7d5e0927-d56c-4e49-a3db-e12f7a1550df"
-					(reference "R27")
 					(unit 1)
 				)
 			)
