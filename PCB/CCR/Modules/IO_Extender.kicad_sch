@@ -1,0 +1,14 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "e32ccd04-d645-49c2-a980-298a2d259f2f")
+	(paper "A5")
+	(title_block
+		(title "Analog IO")
+		(date "2024-08-29")
+		(rev "1.0")
+		(company "Designed by CREPP-NLG")
+	)
+	(lib_symbols)
+)
