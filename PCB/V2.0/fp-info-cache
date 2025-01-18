@@ -1,4 +1,4 @@
-32975392747261
+59022989926174
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -2540,6 +2540,20 @@ RPI_PICO
 0
 0
 0
+CREPP_BMS
+SOP127P600X175-9N
+
+
+0
+9
+9
+CREPP_BNC
+BNC_Amphenol_B6252HB-NPP3G-50_Horizontal
+http://www.farnell.com/datasheets/612848.pdf
+BNC Amphenol Horizontal
+0
+4
+2
 CREPP_Battery_Holders
 BK-18650-PC2_18650_Holder_THT [CREPP]
 
@@ -2547,6 +2561,41 @@ BK-18650-PC2_18650_Holder_THT [CREPP]
 0
 2
 2
+CREPP_Buttons_SMT
+SW_SPST_PTS645
+C&K Components SPST SMD PTS645 Series 6mm Tact Switch
+SPST Button Switch
+0
+4
+2
+CREPP_Buttons_THT
+SW_PUSH_6mm_H4.3mm
+tactile push button, 6x6mm e.g. PHAP33xx series, height=4.3mm
+tact sw push 6mm
+0
+4
+2
+CREPP_Capacitors_THT
+C_Radial_D10.0mm_H20.0mm_P5.00mm
+C, Radial series, Radial, pin pitch=5.00mm, diameter=10mm, height=20mm, Non-Polar Electrolytic Capacitor
+C Radial series Radial pin pitch 5.00mm diameter 10mm height 20mm Non-Polar Electrolytic Capacitor
+0
+2
+2
+CREPP_Connector_Picoblade
+MOLEX_530470510
+
+
+0
+5
+5
+CREPP_Connectors_USB
+USB_C_Receptacle_GCT_USB4085
+USB 2.0 Type C Receptacle, https://gct.co/Files/Drawings/USB4085.pdf
+USB Type-C Receptacle Through-hole Right angle
+0
+20
+17
 CREPP_DIP
 DIP-8_W7.62mm
 8-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils)
@@ -2554,6 +2603,20 @@ THT DIP DIL PDIP 2.54mm 7.62mm 300mil
 0
 0
 0
+CREPP_GNSS
+ublox_MAX
+ublox MAX 6/7/8, (https://www.u-blox.com/sites/default/files/MAX-8-M8-FW3_HardwareIntegrationManual_%28UBX-15030059%29.pdf)
+GPS ublox MAX 6/7/8
+0
+18
+18
+CREPP_GNSS
+ublox_NEO
+ublox NEO 6/7/8, (https://www.u-blox.com/sites/default/files/NEO-8Q-NEO-M8-FW3_HardwareIntegrationManual_%28UBX-15029985%29_0.pdf)
+GPS ublox NEO 6/7/8
+0
+24
+24
 CREPP_Heatsinks
 HeastSink_MOSFET_15mm_10mm_20mm
 
@@ -2561,6 +2624,27 @@ HeastSink_MOSFET_15mm_10mm_20mm
 0
 0
 0
+CREPP_Joysticks
+XDCR_COM-09032
+
+
+0
+14
+14
+CREPP_Joysticks
+XDCR_COM-09032_V2
+
+
+0
+14
+14
+CREPP_Joysticks_SW
+XDCR_COM-09032
+
+
+0
+14
+14
 CREPP_Jumpers
 Jumper_2.54mm_black
 Through hole straight pin header, 1x02, 2.54mm pitch, single row
@@ -2589,6 +2673,20 @@ Through hole pin header THT 1x02 2.54mm single row
 0
 0
 0
+CREPP_RotaryEncoders
+RotaryEncoder
+Alps rotary encoder, EC12E... with switch, vertical shaft, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html
+rotary encoder
+0
+7
+6
+CREPP_SMA
+SMA_Amphenol_132289_EdgeMount
+http://www.amphenolrf.com/132289.html
+SMA
+0
+5
+2
 CREPP_Screens
 SSD1306_OLED_Display(128x64)
 Display 0.96" OLED 128x64 pixel with SSD1306 controller and I2C interface
@@ -2596,6 +2694,13 @@ display OLED SSD1306 128x64
 0
 4
 4
+CREPP_Screens
+SSD1306_OLED_Display_VIRTUAL_128_64
+Display 0.96" OLED 128x64 pixel with SSD1306 controller and I2C interface
+display OLED SSD1306 128x64
+0
+0
+0
 CREPP_Servo
 SG90_Servo
 

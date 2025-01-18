@@ -12,7 +12,10 @@
 #include <Wire.h>
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1306.h>
-#include <I2C_Scanner.h>
+
+//https://github.com/CREPP-PLOEMEUR/CREPP_Lib.io.git
+#include <CREPP_I2C_Scanner.h>
+#include <CREPP_OLED.h>
 /*
  *   Macros
  */
@@ -28,7 +31,7 @@ Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 void setup() 
 {
   
-  Serial.begin(MONITOR_SPEED);  
+  Serial.begin(9600);  
   I2C_Scan();    
 
   bool status_OLED = display.begin(SSD1306_SWITCHCAPVCC, SCREEN_ADDRESS);
@@ -48,10 +51,21 @@ void setup()
   display.setCursor(0, 0);              //Set cursor to (0,0)
   display.setTextColor(SSD1306_WHITE);  //White text
   display.println("OLED : OK");
+  display.println("By CREPP");
   display.display();
+
+
+  OLED_Init();
 }
+
+
 
 void loop() 
 {
+
+  OLED_Println("BLABLABLA");
+  delay(1000);
+  OLED_Clear();
+  
   
 }
