@@ -11,6 +11,86 @@
 		(company "Designed by CREPP-NLG")
 	)
 	(lib_symbols
+		(symbol "CREPP_Temperature_sensors:BME280_Breakout"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "CREPP_Temperature_sensors:BME280_Breakout"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "BME280 breakout (virtual) 3.3V CREPP"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BME280_Breakout_0_1"
+				(rectangle
+					(start -8.89 2.54)
+					(end 10.16 -6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BME280_Breakout_1_1"
+				(text "BME280_Breakout"
+					(at 0.508 -3.556 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector:Conn_01x02_Pin"
 			(pin_names
 				(offset 1.016) hide)
@@ -1271,14 +1351,6 @@
 		(uuid "71a7908d-d4b3-4ec2-a597-91183d5bb422")
 	)
 	(no_connect
-		(at 133.35 80.01)
-		(uuid "009fca9b-df76-4c8f-b332-f95e52fcd0a7")
-	)
-	(no_connect
-		(at 133.35 77.47)
-		(uuid "06206ec4-d78d-4deb-b63d-634f068c4108")
-	)
-	(no_connect
 		(at 119.38 68.58)
 		(uuid "299ca02f-2303-4751-bbe5-e319ebe3906e")
 	)
@@ -1287,24 +1359,8 @@
 		(uuid "2fdfc0d4-ff5c-4f48-8146-d0ad3ccdc48d")
 	)
 	(no_connect
-		(at 133.35 67.31)
-		(uuid "36ebdab0-19e0-4db6-be06-10281b93cf92")
-	)
-	(no_connect
-		(at 133.35 72.39)
-		(uuid "3e6b2246-c0cd-41a7-9375-34e2491b4dcf")
-	)
-	(no_connect
 		(at 119.38 66.04)
 		(uuid "651b04c6-66c9-4d4f-873f-b8c42b4ec5bb")
-	)
-	(no_connect
-		(at 133.35 69.85)
-		(uuid "76f6ec84-c6a5-4605-b494-666779198528")
-	)
-	(no_connect
-		(at 133.35 74.93)
-		(uuid "adb398e6-4c46-482a-be86-ebfa2f59522c")
 	)
 	(no_connect
 		(at 111.76 29.21)
@@ -1859,17 +1915,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x06_Socket")
-		(at 138.43 72.39 0)
+		(lib_id "CREPP_Temperature_sensors:BME280_Breakout")
+		(at 140.97 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "5f1b0fe6-de26-4868-9c27-446d392be26a")
-		(property "Reference" "J24"
-			(at 139.7 72.3899 0)
+		(uuid "205becc7-0d42-4c46-82f4-a863cbaed657")
+		(property "Reference" "U10"
+			(at 152.4 71.1199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1877,8 +1933,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BME_VIRTUAL"
-			(at 139.7 74.9299 0)
+		(property "Value" "~"
+			(at 152.4 73.025 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1886,8 +1942,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical"
-			(at 138.43 72.39 0)
+		(property "Footprint" "CREPP_Temperature_sensors:BME280_Breakout"
+			(at 140.97 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1895,8 +1951,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 138.43 72.39 0)
+		(property "Datasheet" ""
+			(at 140.97 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1904,37 +1960,19 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x06, script generated"
-			(at 138.43 72.39 0)
+		(property "Description" ""
+			(at 140.97 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "4"
-			(uuid "f922d2a6-1497-4e3a-910e-b72bd9f771c8")
-		)
-		(pin "3"
-			(uuid "22922dd6-e5ac-41ab-95cf-6a949a5609de")
-		)
-		(pin "2"
-			(uuid "88a05633-8f2c-4f78-8ea4-10912ee402a3")
-		)
-		(pin "1"
-			(uuid "260aed5d-6495-4305-a962-593bc82ba452")
-		)
-		(pin "6"
-			(uuid "bb195f02-fd19-459f-802c-1586c067f530")
-		)
-		(pin "5"
-			(uuid "5dff7296-7b92-4b70-b7aa-e5b510f4805d")
 		)
 		(instances
 			(project "CREPP.io"
 				(path "/8bcd0d00-b75f-4070-8d50-196a2022a31c/54d9552b-b3ac-4100-8efe-05319c4e6125"
-					(reference "J24")
+					(reference "U10")
 					(unit 1)
 				)
 			)
