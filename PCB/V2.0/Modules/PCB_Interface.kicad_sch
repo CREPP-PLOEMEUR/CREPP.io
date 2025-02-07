@@ -821,7 +821,6 @@
 	)
 	(label "GND"
 		(at 34.29 118.11 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -832,7 +831,6 @@
 	)
 	(label "GND"
 		(at 20.32 34.29 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -843,7 +841,6 @@
 	)
 	(label "GND"
 		(at 19.05 20.32 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -854,7 +851,6 @@
 	)
 	(label "GND"
 		(at 38.1 20.32 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -865,7 +861,6 @@
 	)
 	(label "+3.3V"
 		(at 39.37 53.34 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -876,7 +871,6 @@
 	)
 	(label "+5V"
 		(at 27.94 128.27 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -887,7 +881,6 @@
 	)
 	(label "+5V"
 		(at 39.37 69.85 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -898,7 +891,6 @@
 	)
 	(label "GND"
 		(at 39.37 34.29 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -909,7 +901,6 @@
 	)
 	(label "+3.3V"
 		(at 20.32 53.34 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -920,7 +911,6 @@
 	)
 	(label "+3.3V"
 		(at 27.94 123.19 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -931,7 +921,6 @@
 	)
 	(label "+5V"
 		(at 20.32 69.85 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -943,7 +932,6 @@
 	(hierarchical_label "GND"
 		(shape passive)
 		(at 26.67 118.11 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -955,7 +943,6 @@
 	(hierarchical_label "+3.3V"
 		(shape input)
 		(at 26.67 123.19 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -967,7 +954,6 @@
 	(hierarchical_label "+5V"
 		(shape input)
 		(at 26.67 128.27 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

@@ -1632,9 +1632,18 @@
 		)
 		(uuid "ff7a2a44-3449-40de-89a2-57bbfb84041d")
 	)
+	(label "GND"
+		(at 116.84 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "06bed782-4bc5-41ff-8cdd-653d28bd444f")
+	)
 	(label "VCC_Sensor"
 		(at 128.27 100.33 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1645,7 +1654,6 @@
 	)
 	(label "+5V"
 		(at 25.4 31.75 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1656,7 +1664,6 @@
 	)
 	(label "+3.3V"
 		(at 132.08 95.25 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1665,9 +1672,18 @@
 		)
 		(uuid "116a6dc5-c545-4624-9576-ed2a86595b35")
 	)
+	(label "VCC_Sensor"
+		(at 116.84 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "130367a8-7a14-4d54-847f-f83b174c2be2")
+	)
 	(label "+3.3V"
 		(at 92.71 34.29 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1677,52 +1693,27 @@
 		(uuid "485feafd-a75c-4c38-8350-f91e89184485")
 	)
 	(label "GND"
-		(at 116.84 76.2 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "50bce510-faad-41a3-9ce3-53cb2c15b128")
-	)
-	(label "GND"
 		(at 26.67 25.4 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "51af40f0-6c61-4ab6-b3c1-8a5f6013163d")
-	)
-	(label "SCL"
-		(at 107.95 73.66 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "86da5c06-c558-4644-9270-30703ff52ac4")
+		(uuid "4f6082c1-c49a-4fb3-914a-11ad727f3ea3")
 	)
 	(label "SDA"
 		(at 107.95 71.12 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "a17ddbda-23ad-4b09-894d-c8bc2bd1744b")
+		(uuid "6d3b6a06-f8e1-4f1d-8958-e29d425598eb")
 	)
 	(label "+5V"
 		(at 124.46 95.25 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1733,18 +1724,16 @@
 	)
 	(label "+3.3V"
 		(at 26.67 29.21 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "ad4381f0-6b1a-4ce7-848c-174903add1c5")
+		(uuid "a8d13cf7-cf7d-40b5-9d4f-79cf36782e4c")
 	)
 	(label "GND"
 		(at 92.71 26.67 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1755,7 +1744,6 @@
 	)
 	(label "+3.3V"
 		(at 26.67 54.61 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1766,7 +1754,6 @@
 	)
 	(label "GND"
 		(at 26.67 77.47 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1775,21 +1762,30 @@
 		)
 		(uuid "baf60145-acf7-4547-93ff-74778defa427")
 	)
-	(label "VCC_Sensor"
-		(at 116.84 78.74 180)
-		(fields_autoplaced yes)
+	(label "SCL"
+		(at 107.95 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "f071af54-0441-4112-a19e-af2336abd66c")
+		(uuid "be8ca88c-681d-467c-9c1a-09cff8f2de2a")
+	)
+	(hierarchical_label "{I2C0}"
+		(shape input)
+		(at 95.25 59.69 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "09cb98f7-455d-4006-8b76-14e6fd0803aa")
 	)
 	(hierarchical_label "V_{LDR}"
 		(shape output)
 		(at 39.37 64.77 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1798,22 +1794,9 @@
 		)
 		(uuid "16936400-8cc2-42f7-ba00-1845d78e0cfd")
 	)
-	(hierarchical_label "{I2C}"
-		(shape input)
-		(at 95.25 59.69 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2de32198-f842-491e-93cc-43dbd379ddb0")
-	)
 	(hierarchical_label "+5V"
 		(shape input)
 		(at 30.48 31.75 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1822,29 +1805,27 @@
 		)
 		(uuid "63f695c5-9ff6-4750-b6bc-303ea97066f1")
 	)
-	(hierarchical_label "GND"
-		(shape passive)
-		(at 30.48 25.4 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7fb5a05c-e07c-4f6e-8094-a206500131f9")
-	)
 	(hierarchical_label "+3.3V"
 		(shape input)
 		(at 30.48 29.21 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "bd7e6df1-f1ef-4003-9b0d-2f5423b27339")
+		(uuid "b4ada47e-aaee-4146-a31b-de2b0bce5d6f")
+	)
+	(hierarchical_label "GND"
+		(shape passive)
+		(at 30.48 25.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d6fdc3e8-9520-47d7-a4df-e193d34b0792")
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")

@@ -2037,7 +2037,6 @@
 	)
 	(label "GND"
 		(at 91.44 116.84 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2048,7 +2047,6 @@
 	)
 	(label "GND"
 		(at 116.84 111.76 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2059,7 +2057,6 @@
 	)
 	(label "GND"
 		(at 125.73 104.14 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2070,7 +2067,6 @@
 	)
 	(label "GND"
 		(at 105.41 111.76 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2081,7 +2077,6 @@
 	)
 	(label "GND_Power"
 		(at 157.48 106.68 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2092,7 +2087,6 @@
 	)
 	(label "GND_Power"
 		(at 175.26 85.09 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2103,7 +2097,6 @@
 	)
 	(label "GND_Power"
 		(at 184.15 104.14 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2114,7 +2107,6 @@
 	)
 	(label "GND_Power"
 		(at 148.59 102.87 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2126,7 +2118,6 @@
 	(hierarchical_label "+3.3V"
 		(shape input)
 		(at 105.41 78.74 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2138,7 +2129,6 @@
 	(hierarchical_label "GND"
 		(shape passive)
 		(at 88.9 116.84 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2150,7 +2140,6 @@
 	(hierarchical_label "MOSFET"
 		(shape input)
 		(at 92.71 100.33 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2162,7 +2151,6 @@
 	(hierarchical_label "+3.3V"
 		(shape input)
 		(at 125.73 83.82 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2174,7 +2162,6 @@
 	(hierarchical_label "GND_Power"
 		(shape passive)
 		(at 186.69 104.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

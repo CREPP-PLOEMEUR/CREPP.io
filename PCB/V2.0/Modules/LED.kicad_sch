@@ -404,7 +404,6 @@
 	)
 	(label "GND"
 		(at 109.22 99.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -415,7 +414,6 @@
 	)
 	(label "GND"
 		(at 123.19 99.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -426,7 +424,6 @@
 	)
 	(label "GND"
 		(at 135.89 99.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -437,7 +434,6 @@
 	)
 	(label "GND"
 		(at 90.17 97.79 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -449,7 +445,6 @@
 	(hierarchical_label "GREEN"
 		(shape input)
 		(at 135.89 68.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -461,7 +456,6 @@
 	(hierarchical_label "GND"
 		(shape passive)
 		(at 88.9 97.79 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -473,7 +467,6 @@
 	(hierarchical_label "ORANGE_LED"
 		(shape input)
 		(at 123.19 68.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -485,7 +478,6 @@
 	(hierarchical_label "RED_LED"
 		(shape input)
 		(at 109.22 68.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
