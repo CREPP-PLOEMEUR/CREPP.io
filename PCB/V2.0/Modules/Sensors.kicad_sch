@@ -91,166 +91,6 @@
 				)
 			)
 		)
-		(symbol "Connector:Conn_01x02_Pin"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x02_Pin"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x02, script generated"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x02_Pin_1_1"
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Connector:Conn_01x03_Pin"
 			(pin_names
 				(offset 1.016) hide)
@@ -443,252 +283,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Connector:Conn_01x04_Socket"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x04_Socket"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x04, script generated"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x04_Socket_1_1"
-				(arc
-					(start 0 -4.572)
-					(mid -0.5058 -5.08)
-					(end 0 -5.588)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -2.032)
-					(mid -0.5058 -2.54)
-					(end 0 -3.048)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -5.08) (xy -0.508 -5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -2.54) (xy -0.508 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -0.508 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 2.54) (xy -0.508 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0.508)
-					(mid -0.5058 0)
-					(end 0 -0.508)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 3.048)
-					(mid -0.5058 2.54)
-					(end 0 2.032)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1355,24 +949,8 @@
 		(uuid "299ca02f-2303-4751-bbe5-e319ebe3906e")
 	)
 	(no_connect
-		(at 111.76 34.29)
-		(uuid "2fdfc0d4-ff5c-4f48-8146-d0ad3ccdc48d")
-	)
-	(no_connect
 		(at 119.38 66.04)
 		(uuid "651b04c6-66c9-4d4f-873f-b8c42b4ec5bb")
-	)
-	(no_connect
-		(at 111.76 29.21)
-		(uuid "c399d46d-4dba-4e58-8f82-6d7527cd835d")
-	)
-	(no_connect
-		(at 111.76 31.75)
-		(uuid "d539233e-391a-4e06-a371-c663a1d054a3")
-	)
-	(no_connect
-		(at 111.76 26.67)
-		(uuid "e7d3a4b2-5a7d-4874-980d-decc9f78e4b3")
 	)
 	(bus_entry
 		(at 100.33 71.12)
@@ -1454,26 +1032,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 34.29) (xy 96.52 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44ce31a0-0bff-41a6-8182-50564ffa4eeb")
-	)
-	(wire
-		(pts
-			(xy 92.71 26.67) (xy 96.52 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "53759d52-1c3a-44c3-b079-c5c470190356")
-	)
-	(wire
-		(pts
 			(xy 130.81 95.25) (xy 132.08 95.25)
 		)
 		(stroke
@@ -1491,16 +1049,6 @@
 			(type default)
 		)
 		(uuid "73c6e48b-c7ff-4e33-9cf2-3a3e705fff90")
-	)
-	(wire
-		(pts
-			(xy 81.28 29.21) (xy 96.52 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a1d3b0f-e29a-4e2c-b259-532d51cb66bf")
 	)
 	(wire
 		(pts
@@ -1551,16 +1099,6 @@
 			(type default)
 		)
 		(uuid "b5d602b2-de41-4621-9f3e-5713857b6552")
-	)
-	(wire
-		(pts
-			(xy 81.28 31.75) (xy 96.52 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8607b53-4782-4151-8f27-e7362222b21e")
 	)
 	(wire
 		(pts
@@ -1682,16 +1220,6 @@
 		)
 		(uuid "130367a8-7a14-4d54-847f-f83b174c2be2")
 	)
-	(label "+3.3V"
-		(at 92.71 34.29 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "485feafd-a75c-4c38-8350-f91e89184485")
-	)
 	(label "GND"
 		(at 26.67 25.4 180)
 		(effects
@@ -1731,16 +1259,6 @@
 			(justify right bottom)
 		)
 		(uuid "a8d13cf7-cf7d-40b5-9d4f-79cf36782e4c")
-	)
-	(label "GND"
-		(at 92.71 26.67 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b1663f69-7165-422a-9242-c80ed38cecab")
 	)
 	(label "+3.3V"
 		(at 26.67 54.61 180)
@@ -1826,74 +1344,6 @@
 			(justify left)
 		)
 		(uuid "d6fdc3e8-9520-47d7-a4df-e193d34b0792")
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 76.2 29.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "08acd836-ef5c-43d8-8db8-b21be722e443")
-		(property "Reference" "J27"
-			(at 76.835 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SIG_HCSR04"
-			(at 76.835 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 76.2 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 76.2 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 76.2 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e5be8989-35fb-495a-93ac-a4a91d75bc55")
-		)
-		(pin "1"
-			(uuid "010e6612-3ade-4cd6-9a96-2b086be282a0")
-		)
-		(instances
-			(project "CREPP.io"
-				(path "/8bcd0d00-b75f-4070-8d50-196a2022a31c/54d9552b-b3ac-4100-8efe-05319c4e6125"
-					(reference "J27")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "CREPP_Temperature_sensors:BME280_Breakout")
@@ -2013,94 +1463,18 @@
 			)
 		)
 		(pin "2"
-			(uuid "10febbd1-9f23-4bd2-b433-8ff31b03c849")
+			(uuid "6b8fd94e-1507-454b-baa6-b5787ba2fe56")
 		)
 		(pin "1"
-			(uuid "dde6a162-caed-451e-8a22-cf76c4b9f9ef")
+			(uuid "b9aaeba1-1dd1-4bc1-8f62-4ad09f1a82bb")
 		)
 		(pin "3"
-			(uuid "6d918ba0-9d50-48a8-88f4-f50721d7e8fe")
+			(uuid "fb0703dd-334a-4a7d-ab80-1359de4ad4a0")
 		)
 		(instances
 			(project "CREPP.io"
 				(path "/8bcd0d00-b75f-4070-8d50-196a2022a31c/54d9552b-b3ac-4100-8efe-05319c4e6125"
 					(reference "J36")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x04_Socket")
-		(at 101.6 29.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9d377252-27fb-4fc4-9344-d8ddd7c019ed")
-		(property "Reference" "J23"
-			(at 102.87 29.2099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "HC-SR"
-			(at 102.87 31.7499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
-			(at 101.6 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 101.6 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 101.6 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "a856ebba-986a-4e8b-80ac-7e2877150587")
-		)
-		(pin "3"
-			(uuid "bdf50b31-7ac1-4b8f-948f-e332bf547931")
-		)
-		(pin "2"
-			(uuid "e2e48e67-5d5a-4fc1-bf48-9df40e102e05")
-		)
-		(pin "1"
-			(uuid "92c6d36b-704e-4bd5-8d75-1638ea10bc45")
-		)
-		(instances
-			(project "CREPP.io"
-				(path "/8bcd0d00-b75f-4070-8d50-196a2022a31c/54d9552b-b3ac-4100-8efe-05319c4e6125"
-					(reference "J23")
 					(unit 1)
 				)
 			)
@@ -2162,10 +1536,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "eb551811-0c05-40a4-ad3f-81f140052488")
+			(uuid "bf56a37a-585f-4468-91d3-4051102baf5e")
 		)
 		(pin "2"
-			(uuid "be857819-561f-4f41-8ca3-f85c4222d2f3")
+			(uuid "73a98f98-e110-4064-bf81-814152778394")
 		)
 		(instances
 			(project "CREPP.io"
@@ -2232,22 +1606,22 @@
 			)
 		)
 		(pin "4"
-			(uuid "47edb609-04e8-4f77-8c95-19f6097225d5")
+			(uuid "2dedc922-5754-45e9-afeb-e8c07d537708")
 		)
 		(pin "3"
-			(uuid "996df0c7-d761-4946-9c02-f44f2c8cef79")
+			(uuid "5df0e6be-47b3-4b29-b664-b82539a044d4")
 		)
 		(pin "2"
-			(uuid "28cec5f3-8e83-432e-a93b-5fc9fbfc6e7f")
+			(uuid "be714710-ffc5-41fd-8484-181c5b6f2b4a")
 		)
 		(pin "1"
-			(uuid "0882c533-ce13-4fd6-9b12-b41c2b131449")
+			(uuid "9a44b8a3-d660-4152-9e11-50a933c900dc")
 		)
 		(pin "6"
-			(uuid "9fc8e35b-8dce-4e05-9599-32ba8588b462")
+			(uuid "bfdc6449-3c59-4912-90fc-bed15746b427")
 		)
 		(pin "5"
-			(uuid "0c806d8f-3761-42db-bf05-6258cc61554a")
+			(uuid "e082e98b-0b42-418a-a3bf-9d3b89118880")
 		)
 		(instances
 			(project "CREPP.io"
@@ -2314,91 +1688,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "7efb98b9-86b9-4200-8484-0455164959e8")
+			(uuid "9b1294c9-4abc-4790-a1c0-f981240458e1")
 		)
 		(pin "2"
-			(uuid "b1be9a5c-21e4-4e73-b00d-624cbfa45be3")
+			(uuid "456b49ee-0ded-4382-8efa-5a5abde45ca9")
 		)
 		(instances
 			(project "CREPP.io"
 				(path "/8bcd0d00-b75f-4070-8d50-196a2022a31c/54d9552b-b3ac-4100-8efe-05319c4e6125"
 					(reference "R15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x04_Socket")
-		(at 116.84 29.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "df0ddde6-d5d7-4efa-82cf-1824c7e9ddb0")
-		(property "Reference" "J2"
-			(at 118.11 29.2099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "HC-SR04_VIRTUAL"
-			(at 118.11 31.7499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
-			(at 116.84 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 116.84 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 116.84 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "09379bd6-be85-49a5-b621-384927e00650")
-		)
-		(pin "3"
-			(uuid "1fe799ee-a85c-4562-baf1-0e1be00aca0d")
-		)
-		(pin "2"
-			(uuid "12adb1fc-94e2-4dde-903b-9d2720144784")
-		)
-		(pin "1"
-			(uuid "fe1ffe55-ca35-44ff-8a55-3e396dbdb3e1")
-		)
-		(instances
-			(project "CREPP.io"
-				(path "/8bcd0d00-b75f-4070-8d50-196a2022a31c/54d9552b-b3ac-4100-8efe-05319c4e6125"
-					(reference "J2")
 					(unit 1)
 				)
 			)

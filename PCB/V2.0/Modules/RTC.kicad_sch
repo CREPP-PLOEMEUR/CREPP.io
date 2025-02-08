@@ -919,7 +919,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 68.58) (xy 129.54 68.58)
+			(xy 127 68.58) (xy 140.97 68.58)
 		)
 		(stroke
 			(width 0)
@@ -998,16 +998,6 @@
 		(uuid "ead992dd-ec28-4f20-8cb5-a6b1c95f97f5")
 	)
 	(label "GND"
-		(at 129.54 68.58 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0406982e-82d3-4f51-bfec-7ea0531944d6")
-	)
-	(label "GND"
 		(at 96.52 80.01 0)
 		(effects
 			(font
@@ -1056,6 +1046,16 @@
 			(justify left bottom)
 		)
 		(uuid "c58efc3e-e046-4af0-85ba-14f1936cbbf9")
+	)
+	(label "+3.3V"
+		(at 140.97 68.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c71ea4a1-7434-40ce-b84e-2a45eadf6569")
 	)
 	(label "GND"
 		(at 52.07 80.01 0)

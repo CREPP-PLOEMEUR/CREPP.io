@@ -947,6 +947,73 @@
 		(uuid "fac69c18-2d8f-413c-af67-33778e16484d")
 	)
 	(symbol
+		(lib_id "CREPP_Screens:OLED_SSD1306_0.96")
+		(at 129.54 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "02f309bd-a125-4a21-ae02-73f4b6154d63")
+		(property "Reference" "OLED1"
+			(at 134.62 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(italic yes)
+					(color 0 132 0 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 134.62 38.735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CREPP_Screens:SSD1306_OLED_Display_VIRTUAL_128_64"
+			(at 129.54 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/8bcd0d00-b75f-4070-8d50-196a2022a31c/a3954905-38ea-4d92-9f94-5da1e2d350f3"
+					(reference "OLED1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x04_Socket")
 		(at 124.46 63.5 0)
 		(unit 1)
@@ -1017,73 +1084,6 @@
 			(project "CREPP.io"
 				(path "/8bcd0d00-b75f-4070-8d50-196a2022a31c/a3954905-38ea-4d92-9f94-5da1e2d350f3"
 					(reference "J14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CREPP_Screens:OLED_SSD1306_0.96")
-		(at 130.81 39.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1dd84663-2664-40df-9494-64dbe1980b4a")
-		(property "Reference" "OLED1"
-			(at 135.89 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(bold yes)
-					(italic yes)
-					(color 0 132 0 1)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 135.89 40.005 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "CREPP_Screens:SSD1306_OLED_Display_VIRTUAL_128_64"
-			(at 130.81 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 130.81 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 130.81 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "CREPP.io"
-				(path "/8bcd0d00-b75f-4070-8d50-196a2022a31c/a3954905-38ea-4d92-9f94-5da1e2d350f3"
-					(reference "OLED1")
 					(unit 1)
 				)
 			)

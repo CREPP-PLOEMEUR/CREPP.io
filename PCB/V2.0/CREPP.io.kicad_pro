@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 0.0,
+          "height": 2.6,
+          "width": 3.66
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -670,6 +670,10 @@
       "MCU"
     ],
     [
+      "d00d42ff-d8b0-4514-ab6c-bb1cee7d16a1",
+      "IO_Extender"
+    ],
+    [
       "7d5e0927-d56c-4e49-a3db-e12f7a1550df",
       "RTC"
     ],
@@ -700,6 +704,18 @@
     [
       "e5deda31-4de6-4c52-981c-0289ecc7c1e7",
       "Motors"
+    ],
+    [
+      "1f48c052-2e67-43cb-849c-65bbe8442374",
+      "HC-SR04"
+    ],
+    [
+      "5559de28-b2ad-4a64-8617-0d27d82b7538",
+      "Power_Supply"
+    ],
+    [
+      "75e2d43c-c6ac-43e3-9830-14bf30353425",
+      "Power_Supply1"
     ],
     [
       "ac27f973-3d9e-4d4f-ac23-af97b38f4de1",

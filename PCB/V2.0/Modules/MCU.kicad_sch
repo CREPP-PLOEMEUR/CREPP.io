@@ -87,6 +87,115 @@
 				)
 			)
 		)
+		(symbol "CREPP_Jumpers:Jumper_2.54mm_blue"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim yes)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Jumper_2.54mm_blue"
+				(at 0 -2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "CREPP_Jumpers:Jumper_2.54mm_blue"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Jumper, 2-pole, open"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Jumper SPST blue"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Jumper_2.54mm_blue_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2.54mm_blue_1_1"
+				(arc
+					(start 1.524 1.27)
+					(mid 0 1.778)
+					(end -1.524 1.27)
+					(stroke
+						(width 0)
+						(type default)
+						(color 0 0 194 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 		(symbol "CREPP_Jumpers:Jumper_2.54mm_green"
 			(pin_numbers hide)
 			(pin_names
@@ -3444,6 +3553,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 118.11) (xy 251.46 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88922796-3003-49d0-883f-990c934e998b")
+	)
+	(wire
+		(pts
 			(xy 167.64 151.13) (xy 167.64 153.67)
 		)
 		(stroke
@@ -3591,6 +3710,16 @@
 			(type default)
 		)
 		(uuid "ac08470a-0072-47b5-b4be-c1e052ad802e")
+	)
+	(wire
+		(pts
+			(xy 247.65 87.63) (xy 251.46 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac8a630a-1908-47eb-b852-240122b7bcc0")
 	)
 	(wire
 		(pts
@@ -3804,6 +3933,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 115.57) (xy 251.46 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ced64fe3-fec4-427f-9572-eb7fe6430fbf")
+	)
+	(wire
+		(pts
 			(xy 222.25 82.55) (xy 234.95 82.55)
 		)
 		(stroke
@@ -3831,6 +3970,16 @@
 			(type default)
 		)
 		(uuid "d88c3a20-cd23-4b1b-b227-a4ad44a97f89")
+	)
+	(wire
+		(pts
+			(xy 247.65 92.71) (xy 251.46 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da29c260-c560-4ede-ab3b-3d6026801e41")
 	)
 	(wire
 		(pts
@@ -3931,6 +4080,16 @@
 			(type default)
 		)
 		(uuid "f75b08f3-70de-46a6-adc6-32575d3ba5ea")
+	)
+	(wire
+		(pts
+			(xy 247.65 95.25) (xy 251.46 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa1aee9d-97ed-489f-aa33-a5f458e22e14")
 	)
 	(wire
 		(pts
@@ -14457,6 +14616,16 @@
 		(uuid "5e464bf9-48ae-4e22-9325-21d857158597")
 	)
 	(label "GND"
+		(at 251.46 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "61f570ec-32f2-4809-b67e-5560045416b0")
+	)
+	(label "GND"
 		(at 251.46 77.47 0)
 		(effects
 			(font
@@ -15722,70 +15891,6 @@
 	)
 	(symbol
 		(lib_id "CREPP_Jumpers:Jumper_2.54mm_green")
-		(at 24.13 87.63 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "74461932-eacb-4988-9e8c-73b9fad0355f")
-		(property "Reference" "JP9"
-			(at 27.94 86.9949 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Jumper_2.54mm_green"
-			(at 24.13 89.916 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "CREPP_Jumpers:Jumper_2.54mm_green"
-			(at 24.13 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 24.13 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, open"
-			(at 24.13 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "CREPP.io"
-				(path "/8bcd0d00-b75f-4070-8d50-196a2022a31c/e5758719-e9ac-47cc-b357-8148e1c54986"
-					(reference "JP9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CREPP_Jumpers:Jumper_2.54mm_green")
 		(at 262.89 113.03 0)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -16245,7 +16350,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SW_Left"
+		(property "Value" "SW_Reset"
 			(at 213.36 140.9699 90)
 			(effects
 				(font
@@ -16291,70 +16396,6 @@
 			(project "CREPP.io"
 				(path "/8bcd0d00-b75f-4070-8d50-196a2022a31c/e5758719-e9ac-47cc-b357-8148e1c54986"
 					(reference "SW9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CREPP_Jumpers:Jumper_2.54mm_green")
-		(at 24.13 85.09 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a7ba04e3-0501-42cf-87ff-e23c6e598f42")
-		(property "Reference" "JP8"
-			(at 27.94 84.4549 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Jumper_2.54mm_green"
-			(at 24.13 87.376 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "CREPP_Jumpers:Jumper_2.54mm_green"
-			(at 24.13 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 24.13 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, open"
-			(at 24.13 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "CREPP.io"
-				(path "/8bcd0d00-b75f-4070-8d50-196a2022a31c/e5758719-e9ac-47cc-b357-8148e1c54986"
-					(reference "JP8")
 					(unit 1)
 				)
 			)
@@ -17340,6 +17381,70 @@
 		)
 	)
 	(symbol
+		(lib_id "CREPP_Jumpers:Jumper_2.54mm_blue")
+		(at 34.29 87.63 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f44f2cfd-bfb1-422c-a0b5-3c1a894012b3")
+		(property "Reference" "JP9"
+			(at 38.1 86.9949 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Jumper_2.54mm_blue"
+			(at 34.29 89.916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "CREPP_Jumpers:Jumper_2.54mm_blue"
+			(at 34.29 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 34.29 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, open"
+			(at 34.29 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "CREPP.io"
+				(path "/8bcd0d00-b75f-4070-8d50-196a2022a31c/e5758719-e9ac-47cc-b357-8148e1c54986"
+					(reference "JP9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_02x20_Odd_Even")
 		(at 82.55 97.79 180)
 		(unit 1)
@@ -17515,6 +17620,70 @@
 			(project "CREPP.io"
 				(path "/8bcd0d00-b75f-4070-8d50-196a2022a31c/e5758719-e9ac-47cc-b357-8148e1c54986"
 					(reference "J28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CREPP_Jumpers:Jumper_2.54mm_blue")
+		(at 34.29 85.09 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f712ea34-6b16-4715-a805-cd758f9d90c5")
+		(property "Reference" "JP8"
+			(at 38.1 84.4549 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Jumper_2.54mm_blue"
+			(at 34.29 87.376 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "CREPP_Jumpers:Jumper_2.54mm_blue"
+			(at 34.29 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 34.29 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, open"
+			(at 34.29 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/8bcd0d00-b75f-4070-8d50-196a2022a31c/e5758719-e9ac-47cc-b357-8148e1c54986"
+					(reference "JP8")
 					(unit 1)
 				)
 			)

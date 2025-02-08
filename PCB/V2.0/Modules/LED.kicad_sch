@@ -11,7 +11,7 @@
 		(company "Designed by CREPP-NLG")
 	)
 	(lib_symbols
-		(symbol "Device:LED"
+		(symbol "CREPP_LED:LED_5mm_THT"
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016) hide)
@@ -26,7 +26,7 @@
 					)
 				)
 			)
-			(property "Value" "LED"
+			(property "Value" "LED_5mm_THT"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -34,7 +34,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "LED_THT:LED_D5.0mm"
 				(at 0 0 0)
 				(effects
 					(font
@@ -61,7 +61,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "LED diode"
+			(property "ki_keywords" "LED diode CREPP THT 5mm"
 				(at 0 0 0)
 				(effects
 					(font
@@ -79,7 +79,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "LED_0_1"
+			(symbol "LED_5mm_THT_0_1"
 				(polyline
 					(pts
 						(xy -1.27 -1.27) (xy -1.27 1.27)
@@ -141,7 +141,7 @@
 					)
 				)
 			)
-			(symbol "LED_1_1"
+			(symbol "LED_5mm_THT_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -304,7 +304,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 68.58) (xy 135.89 73.66)
+			(xy 59.69 100.33) (xy 59.69 105.41)
 		)
 		(stroke
 			(width 0)
@@ -314,7 +314,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 81.28) (xy 109.22 86.36)
+			(xy 113.03 115.57) (xy 113.03 120.65)
 		)
 		(stroke
 			(width 0)
@@ -324,7 +324,17 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 68.58) (xy 109.22 73.66)
+			(xy 130.81 128.27) (xy 130.81 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cba29c3-dea2-4e74-beb7-a815fb534d1a")
+	)
+	(wire
+		(pts
+			(xy 113.03 102.87) (xy 113.03 107.95)
 		)
 		(stroke
 			(width 0)
@@ -334,7 +344,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 97.79) (xy 90.17 97.79)
+			(xy 45.72 106.68) (xy 46.99 106.68)
 		)
 		(stroke
 			(width 0)
@@ -344,7 +354,47 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 93.98) (xy 109.22 99.06)
+			(xy 144.78 102.87) (xy 144.78 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "242b7760-184e-4a0a-b784-7831b2c665dc")
+	)
+	(wire
+		(pts
+			(xy 171.45 101.6) (xy 171.45 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3dac57e5-0f3d-4424-80cf-4c58017635a4")
+	)
+	(wire
+		(pts
+			(xy 144.78 115.57) (xy 144.78 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4978cd0e-452f-477b-98fb-9f602362de7b")
+	)
+	(wire
+		(pts
+			(xy 130.81 102.87) (xy 130.81 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "564b1411-8416-4a3e-9e84-80e3f792265c")
+	)
+	(wire
+		(pts
+			(xy 113.03 128.27) (xy 113.03 133.35)
 		)
 		(stroke
 			(width 0)
@@ -354,17 +404,17 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 81.28) (xy 123.19 86.36)
+			(xy 93.98 128.27) (xy 93.98 133.35)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5c840fca-331e-4a44-bf6b-2e9dae03046e")
+		(uuid "5972ffcc-a261-4c11-a0d2-4d9353da76dc")
 	)
 	(wire
 		(pts
-			(xy 135.89 93.98) (xy 135.89 99.06)
+			(xy 59.69 125.73) (xy 59.69 130.81)
 		)
 		(stroke
 			(width 0)
@@ -374,7 +424,27 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 81.28) (xy 135.89 86.36)
+			(xy 144.78 128.27) (xy 144.78 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7780badc-e000-4493-827c-ad9205aa5c2c")
+	)
+	(wire
+		(pts
+			(xy 76.2 127) (xy 76.2 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d601046-b15b-43e1-a3b9-063bd09a7bd3")
+	)
+	(wire
+		(pts
+			(xy 59.69 113.03) (xy 59.69 118.11)
 		)
 		(stroke
 			(width 0)
@@ -384,26 +454,86 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 93.98) (xy 123.19 99.06)
+			(xy 76.2 114.3) (xy 76.2 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a627d2d4-01b7-49c1-b43b-263940ab6356")
+		(uuid "9e39dca2-3935-40e2-9aea-b9c4fbb1b786")
 	)
 	(wire
 		(pts
-			(xy 123.19 68.58) (xy 123.19 73.66)
+			(xy 171.45 120.65) (xy 171.45 128.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "edcd60fe-e76b-4863-8773-223cbc9b9610")
+		(uuid "b0d92708-4fe3-497c-9cc8-706e7c9d475c")
+	)
+	(wire
+		(pts
+			(xy 76.2 101.6) (xy 76.2 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c91b84cc-3a8e-49ed-8792-f3399ecf1bc1")
+	)
+	(wire
+		(pts
+			(xy 130.81 115.57) (xy 130.81 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1388b96-168d-4a20-8366-665eabb84a3b")
+	)
+	(wire
+		(pts
+			(xy 93.98 102.87) (xy 93.98 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9cdf5a6-f2b0-4a77-8cbb-f0acaf94fc9c")
+	)
+	(wire
+		(pts
+			(xy 93.98 115.57) (xy 93.98 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f77d1f04-4628-418c-9b20-1edb4ef6a8d5")
 	)
 	(label "GND"
-		(at 109.22 99.06 0)
+		(at 76.2 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1e28651d-d8c4-405f-ac96-35e9e7515725")
+	)
+	(label "GND"
+		(at 144.78 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7f77f20b-e147-4783-a616-e12af6080052")
+	)
+	(label "GND"
+		(at 113.03 133.35 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -413,17 +543,7 @@
 		(uuid "8055fc0d-c172-45f1-bb77-f82b81e24bc0")
 	)
 	(label "GND"
-		(at 123.19 99.06 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "86cbe006-5f24-48dd-9f80-1b13c8e5b045")
-	)
-	(label "GND"
-		(at 135.89 99.06 0)
+		(at 59.69 130.81 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -433,7 +553,17 @@
 		(uuid "8eb8f5ea-dcdd-46c1-970e-e10df34dcf6f")
 	)
 	(label "GND"
-		(at 90.17 97.79 0)
+		(at 171.45 128.27 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9ba92755-8e10-4a71-81c0-97f51f8d684c")
+	)
+	(label "GND"
+		(at 46.99 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -442,9 +572,29 @@
 		)
 		(uuid "bc053b91-851d-4b89-b4b4-c8fff55fa32f")
 	)
-	(hierarchical_label "GREEN"
+	(label "GND"
+		(at 93.98 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c1d7032b-139e-4a66-9429-ac139d6b7977")
+	)
+	(label "GND"
+		(at 130.81 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e0cb9cb1-3c04-49fb-932d-40732ce787a3")
+	)
+	(hierarchical_label "DEFAULT_LED"
 		(shape input)
-		(at 135.89 68.58 90)
+		(at 59.69 100.33 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -453,9 +603,20 @@
 		)
 		(uuid "268d4721-f0ba-4b12-a474-2bb25e7f6845")
 	)
+	(hierarchical_label "L4"
+		(shape input)
+		(at 130.81 102.87 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "317245c0-4ff7-4bd7-bfc7-157ae961044c")
+	)
 	(hierarchical_label "GND"
 		(shape passive)
-		(at 88.9 97.79 180)
+		(at 45.72 106.68 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -464,20 +625,20 @@
 		)
 		(uuid "376803fe-b88e-47fe-9403-e357f512fae6")
 	)
-	(hierarchical_label "ORANGE_LED"
+	(hierarchical_label "L1"
 		(shape input)
-		(at 123.19 68.58 90)
+		(at 76.2 101.6 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "5f6e3d23-d5c9-40e1-b10e-ff411b965f9b")
+		(uuid "64ab7dcc-933d-4f12-ab75-15af8141fc04")
 	)
-	(hierarchical_label "RED_LED"
+	(hierarchical_label "L2"
 		(shape input)
-		(at 109.22 68.58 90)
+		(at 93.98 102.87 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -486,18 +647,51 @@
 		)
 		(uuid "70657421-30ea-45da-aeb9-c3ae6d17adc4")
 	)
+	(hierarchical_label "L3"
+		(shape input)
+		(at 113.03 102.87 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a82624d1-089d-46f8-ac4a-dac8df464c68")
+	)
+	(hierarchical_label "+5V"
+		(shape input)
+		(at 171.45 101.6 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b0678bfd-30ca-4761-bac0-ffbb1c471b74")
+	)
+	(hierarchical_label "L5"
+		(shape input)
+		(at 144.78 102.87 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e2ba0bbb-8b2e-40e2-9ab1-3399c0746541")
+	)
 	(symbol
 		(lib_id "Device:R")
-		(at 123.19 77.47 0)
+		(at 130.81 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "31046bc8-869e-43d8-a083-48343e361a7c")
+		(uuid "0921199a-135d-47b9-9388-f4f7dd3b15a4")
 		(property "Reference" "R7"
-			(at 125.73 76.1999 0)
+			(at 133.35 110.4899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -506,7 +700,7 @@
 			)
 		)
 		(property "Value" "270"
-			(at 125.73 78.7399 0)
+			(at 133.35 113.0299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -515,7 +709,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 121.412 77.47 90)
+			(at 129.032 111.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -524,7 +718,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 123.19 77.47 0)
+			(at 130.81 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -533,7 +727,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 123.19 77.47 0)
+			(at 130.81 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -542,10 +736,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "370f9f7a-aa7e-4f73-9eea-ca83d848861c")
+			(uuid "ebf9527a-1bb6-49f5-a15c-a36afc3068de")
 		)
 		(pin "1"
-			(uuid "c9c4b9a1-daa3-4d3b-89c9-0a4faf35d457")
+			(uuid "2159362b-1f6c-485c-a533-a10463a84c61")
 		)
 		(instances
 			(project "CREPP.io"
@@ -557,35 +751,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 123.19 90.17 90)
+		(lib_id "Device:R")
+		(at 93.98 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4f5def13-3f94-4705-bb2b-5f748085986f")
-		(property "Reference" "D2"
-			(at 127 90.4874 90)
+		(uuid "2c6314cf-866e-4a78-ac2b-9e0278cbc0b5")
+		(property "Reference" "R14"
+			(at 96.52 110.4899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "LED"
-			(at 127 93.0274 90)
+		(property "Value" "270"
+			(at 96.52 113.0299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm"
-			(at 123.19 90.17 0)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 92.202 111.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -594,7 +788,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 123.19 90.17 0)
+			(at 93.98 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -602,8 +796,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
-			(at 123.19 90.17 0)
+		(property "Description" "Resistor"
+			(at 93.98 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -612,10 +806,150 @@
 			)
 		)
 		(pin "2"
-			(uuid "98fd6405-2ccd-495b-a58e-a70d02ab598e")
+			(uuid "c0158726-f04b-4964-85fa-7630aa039987")
 		)
 		(pin "1"
-			(uuid "52d1c4c4-8b36-42aa-bafd-ca86809e7b39")
+			(uuid "7868972f-980c-4730-a27f-e469cfddf507")
+		)
+		(instances
+			(project "CREPP.io"
+				(path "/8bcd0d00-b75f-4070-8d50-196a2022a31c/e60fad5e-ad21-446c-9758-6953d048c0aa"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 144.78 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "454ba6bd-6987-416b-9a2a-cf09ebe145e1")
+		(property "Reference" "R12"
+			(at 147.32 110.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "270"
+			(at 147.32 113.0299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 143.002 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 144.78 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1a127042-f272-4d8c-aa10-1f0d63710d12")
+		)
+		(pin "1"
+			(uuid "e8ffbd10-abc4-4391-9d1a-d612af8c4f5b")
+		)
+		(instances
+			(project "CREPP.io"
+				(path "/8bcd0d00-b75f-4070-8d50-196a2022a31c/e60fad5e-ad21-446c-9758-6953d048c0aa"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CREPP_LED:LED_5mm_THT")
+		(at 93.98 124.46 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4ca075df-03b5-4762-9ca5-56491e5f072d")
+		(property "Reference" "D2"
+			(at 97.79 124.7774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED_Orange"
+			(at 97.79 127.3174 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "CREPP_LEDs:LED_D5.0mm_Orange"
+			(at 93.98 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 93.98 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6323bab0-369c-456d-82f2-03e6bb5163cb")
+		)
+		(pin "2"
+			(uuid "fac36ca0-c1bf-4aa2-9fbc-c4070249f782")
 		)
 		(instances
 			(project "CREPP.io"
@@ -627,17 +961,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 135.89 90.17 90)
+		(lib_id "CREPP_LED:LED_5mm_THT")
+		(at 76.2 123.19 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "6ff2ea78-41fc-4701-9a6f-bedb36baebaf")
-		(property "Reference" "D3"
-			(at 139.7 90.4874 90)
+		(uuid "8d703b25-7137-42b5-b930-4df3c6ad3cc9")
+		(property "Reference" "D10"
+			(at 80.01 123.5074 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -645,8 +979,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
-			(at 139.7 93.0274 90)
+		(property "Value" "LED_Green"
+			(at 80.01 126.0474 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -654,8 +988,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm"
-			(at 135.89 90.17 0)
+		(property "Footprint" "CREPP_LEDs:LED_D5.0mm_Green"
+			(at 76.2 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -664,7 +998,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 135.89 90.17 0)
+			(at 76.2 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -673,7 +1007,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 135.89 90.17 0)
+			(at 76.2 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -681,14 +1015,84 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "2ef55e9d-3360-4a55-9929-efa82489b5eb")
-		)
 		(pin "1"
-			(uuid "ed5ce152-ff9e-4395-8cec-9b6399eb2002")
+			(uuid "902ca659-c17d-4fb0-b29a-61704f3027f5")
+		)
+		(pin "2"
+			(uuid "be90a87d-f9eb-4153-809b-62386c875a3a")
 		)
 		(instances
 			(project "CREPP.io"
+				(path "/8bcd0d00-b75f-4070-8d50-196a2022a31c/e60fad5e-ad21-446c-9758-6953d048c0aa"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CREPP_LED:LED_5mm_THT")
+		(at 59.69 121.92 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "92a6d1da-6043-47b3-907a-73004f221d4d")
+		(property "Reference" "D3"
+			(at 63.5 122.2374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED_Green"
+			(at 63.5 124.7774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "CREPP_LEDs:LED_D5.0mm_Green"
+			(at 59.69 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 59.69 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 59.69 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ff881307-23df-4223-97c6-5d6619565359")
+		)
+		(pin "2"
+			(uuid "7947a4de-4bd3-4a65-9a6b-4085743b668d")
+		)
+		(instances
+			(project ""
 				(path "/8bcd0d00-b75f-4070-8d50-196a2022a31c/e60fad5e-ad21-446c-9758-6953d048c0aa"
 					(reference "D3")
 					(unit 1)
@@ -697,87 +1101,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 109.22 90.17 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "abce6f02-b999-49e2-8d6c-63fbd70c7e30")
-		(property "Reference" "D1"
-			(at 113.03 90.4874 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 113.03 93.0274 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_THT:LED_D5.0mm"
-			(at 109.22 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 109.22 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 109.22 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ae2820c3-55ee-4a0a-9bd1-e9e9e6d3ac59")
-		)
-		(pin "1"
-			(uuid "49d1cdda-6da3-4a4e-a36b-74f9d888b539")
-		)
-		(instances
-			(project "CREPP.io"
-				(path "/8bcd0d00-b75f-4070-8d50-196a2022a31c/e60fad5e-ad21-446c-9758-6953d048c0aa"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
-		(at 135.89 77.47 0)
+		(at 171.45 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ae4d8f9b-416c-4cfc-920b-70ec3cfb2160")
-		(property "Reference" "R8"
-			(at 138.43 76.1999 0)
+		(uuid "9e723a91-84c5-4ffe-b6ef-dbcf0b2f312b")
+		(property "Reference" "R5"
+			(at 173.99 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -786,7 +1120,7 @@
 			)
 		)
 		(property "Value" "270"
-			(at 138.43 78.7399 0)
+			(at 173.99 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -795,7 +1129,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 134.112 77.47 90)
+			(at 169.672 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -804,7 +1138,77 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 135.89 77.47 0)
+			(at 171.45 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 171.45 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "44697284-9c80-4a09-9232-d062238e81de")
+		)
+		(pin "2"
+			(uuid "a388aac0-0d1d-42a7-847b-aa4de59feca8")
+		)
+		(instances
+			(project "CREPP.io"
+				(path "/8bcd0d00-b75f-4070-8d50-196a2022a31c/e60fad5e-ad21-446c-9758-6953d048c0aa"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 59.69 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ae4d8f9b-416c-4cfc-920b-70ec3cfb2160")
+		(property "Reference" "R8"
+			(at 62.23 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "270"
+			(at 62.23 110.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 57.912 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 59.69 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -813,7 +1217,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 135.89 77.47 0)
+			(at 59.69 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -837,35 +1241,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 109.22 77.47 0)
+		(lib_id "CREPP_LED:LED_5mm_THT")
+		(at 113.03 124.46 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f00a284e-781b-4dcf-b5eb-0432e6cf6a97")
-		(property "Reference" "R6"
-			(at 111.76 76.1999 0)
+		(uuid "afabeaf0-a402-415c-a801-16da03d8d719")
+		(property "Reference" "D11"
+			(at 116.84 124.7774 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "270"
-			(at 111.76 78.7399 0)
+		(property "Value" "LED_Orange"
+			(at 116.84 127.3174 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 107.442 77.47 90)
+		(property "Footprint" "CREPP_LEDs:LED_D5.0mm_Orange"
+			(at 113.03 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -874,7 +1278,287 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 109.22 77.47 0)
+			(at 113.03 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 113.03 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a1d42e06-9a4f-4225-ab93-71223a47afd6")
+		)
+		(pin "2"
+			(uuid "52222761-3f05-495f-a454-309ab0655637")
+		)
+		(instances
+			(project "CREPP.io"
+				(path "/8bcd0d00-b75f-4070-8d50-196a2022a31c/e60fad5e-ad21-446c-9758-6953d048c0aa"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CREPP_LED:LED_5mm_THT")
+		(at 144.78 124.46 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c14527bc-5d56-4b99-8177-e7feb8d119e9")
+		(property "Reference" "D9"
+			(at 148.59 124.7774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED_Red"
+			(at 148.59 127.3174 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "CREPP_LEDs:LED_D5.0mm_Red"
+			(at 144.78 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 144.78 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0c45ee6a-3759-428d-b8dd-c72a1342f43e")
+		)
+		(pin "1"
+			(uuid "7dcef6f6-67c3-462a-a493-45131423a27e")
+		)
+		(instances
+			(project "CREPP.io"
+				(path "/8bcd0d00-b75f-4070-8d50-196a2022a31c/e60fad5e-ad21-446c-9758-6953d048c0aa"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CREPP_LED:LED_5mm_THT")
+		(at 171.45 116.84 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c95a0a91-4666-4341-b18d-c8e8b276df4a")
+		(property "Reference" "D4"
+			(at 175.26 117.1574 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED_Green"
+			(at 175.26 119.6974 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "CREPP_LEDs:LED_D5.0mm_Green"
+			(at 171.45 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 171.45 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 171.45 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6a61dbe0-f224-4e3e-8e43-4f1f34e691ac")
+		)
+		(pin "2"
+			(uuid "3be7814c-b278-407e-892f-4b6da94b4d2d")
+		)
+		(instances
+			(project "CREPP.io"
+				(path "/8bcd0d00-b75f-4070-8d50-196a2022a31c/e60fad5e-ad21-446c-9758-6953d048c0aa"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CREPP_LED:LED_5mm_THT")
+		(at 130.81 124.46 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dc674583-0266-4967-b599-7aa57f6fb8dd")
+		(property "Reference" "D1"
+			(at 134.62 124.7774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED_Red"
+			(at 134.62 127.3174 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "CREPP_LEDs:LED_D5.0mm_Red"
+			(at 130.81 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 130.81 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 130.81 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7b9391d4-8ed9-4508-879e-9f4d463c01cf")
+		)
+		(pin "1"
+			(uuid "8888efb2-f0a4-4041-a474-78e60065fa7c")
+		)
+		(instances
+			(project "CREPP.io"
+				(path "/8bcd0d00-b75f-4070-8d50-196a2022a31c/e60fad5e-ad21-446c-9758-6953d048c0aa"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 113.03 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f00a284e-781b-4dcf-b5eb-0432e6cf6a97")
+		(property "Reference" "R6"
+			(at 115.57 110.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "270"
+			(at 115.57 113.0299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 111.252 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -883,7 +1567,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 109.22 77.47 0)
+			(at 113.03 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -901,6 +1585,76 @@
 			(project "CREPP.io"
 				(path "/8bcd0d00-b75f-4070-8d50-196a2022a31c/e60fad5e-ad21-446c-9758-6953d048c0aa"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 76.2 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f6170626-2af7-49c4-8617-6adbe1be5d46")
+		(property "Reference" "R13"
+			(at 78.74 109.2199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "270"
+			(at 78.74 111.7599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 74.422 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 76.2 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c2583042-e51f-4faa-b17c-da7e5c141e1d")
+		)
+		(pin "1"
+			(uuid "0bcb2c30-3d96-4efa-b028-1f8766e90f83")
+		)
+		(instances
+			(project "CREPP.io"
+				(path "/8bcd0d00-b75f-4070-8d50-196a2022a31c/e60fad5e-ad21-446c-9758-6953d048c0aa"
+					(reference "R13")
 					(unit 1)
 				)
 			)

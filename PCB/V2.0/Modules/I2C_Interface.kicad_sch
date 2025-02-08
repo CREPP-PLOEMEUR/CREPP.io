@@ -631,16 +631,16 @@
 			)
 		)
 		(pin "4"
-			(uuid "17a4e1cc-8eef-482b-830e-d33efd8a8211")
+			(uuid "f5b25033-48d5-451b-aeb2-c942578a7153")
 		)
 		(pin "2"
-			(uuid "e880a33f-e06d-413e-9272-5bd3dbbf1924")
+			(uuid "95cb83f2-1d62-4ad1-8ecb-6c640a9f8e58")
 		)
 		(pin "3"
-			(uuid "b841de18-e0b6-4ac1-854c-4b6deb87d728")
+			(uuid "f4f11601-b49f-49fc-a0cf-e120dac274eb")
 		)
 		(pin "1"
-			(uuid "316675f4-052b-4c04-ab51-c50b7a447293")
+			(uuid "3572d14a-c6d8-4616-a2fc-d3293d2735bc")
 		)
 		(instances
 			(project "CREPP.io"
@@ -661,7 +661,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4bbc4b30-e08b-47b3-a15e-6d23397bac1d")
-		(property "Reference" "J9"
+		(property "Reference" "J2"
 			(at 170.18 63.4999 0)
 			(effects
 				(font
@@ -707,21 +707,21 @@
 			)
 		)
 		(pin "4"
-			(uuid "11818c94-fd30-4954-8c95-fff7a7d3463f")
+			(uuid "d4df1854-de18-414f-b9ba-03a11a5dbe2c")
 		)
 		(pin "2"
-			(uuid "307980d0-8042-4ddf-b658-da446b7438e3")
+			(uuid "b50e7cb0-f0b7-4b5c-94b5-51818a53f454")
 		)
 		(pin "3"
-			(uuid "e0dd952b-9a89-48c6-9f3e-5bf9274bc16f")
+			(uuid "1aa3f218-cac1-4b4c-bb8b-a5f065442671")
 		)
 		(pin "1"
-			(uuid "d8199fc5-dc69-4021-ab0b-fb0734ed9d58")
+			(uuid "8c1f9463-7fb8-495b-a735-686e3a58ca8d")
 		)
 		(instances
-			(project ""
+			(project "CREPP.io"
 				(path "/8bcd0d00-b75f-4070-8d50-196a2022a31c/c4fb65bd-53fe-465d-8813-dbd5961ee741"
-					(reference "J9")
+					(reference "J2")
 					(unit 1)
 				)
 			)
